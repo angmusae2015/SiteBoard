@@ -1,0 +1,45 @@
+{
+  "experiment": "01_baseline",
+  "model_name": "Qwen/Qwen2.5-1.5B-Instruct",
+  "train_file": "dataset/splits/01_baseline/train.jsonl",
+  "test_file": "dataset/splits/01_baseline/test.jsonl",
+  "split_meta": "experiments/01_baseline/split_meta.json",
+  "work_types": "dataset/work_type.json",
+  "dataset_file": "dataset/raw/dataset_org.json",
+  "clusters_file": null,
+  "output_dir": "artifacts/checkpoints/01_baseline",
+  "adapter_path": "artifacts/checkpoints/01_baseline/final_adapter",
+  "report_file": "artifacts/reports/01_baseline/evaluation.json",
+  "device": "cuda",
+  "training": {
+    "epochs": 3,
+    "batch_size": 1,
+    "grad_accum": 8,
+    "learning_rate": 0.0002,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "max_seq_length": 1024,
+    "seed": 42
+  },
+  "augmentation": {
+    "enabled": false,
+    "probability": 0.5,
+    "max_concat": 2,
+    "delimiters": [
+      " ",
+      " / ",
+      " . ",
+      "\n"
+    ],
+    "weighted": false,
+    "weight_power": 0.7,
+    "min_weight": 1.0
+  },
+  "evaluation": {
+    "batch_size": 16,
+    "max_new_tokens": 512,
+    "max_input_tokens": 1024
+  },
+  "provenance": "현재 실행 설정입니다. 과거 실험의 완전한 재현 설정으로 검증되지 않았습니다."
+}

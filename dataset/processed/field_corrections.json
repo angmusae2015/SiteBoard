@@ -1,0 +1,626 @@
+[
+  {
+    "org_index": 180,
+    "site": "DG1",
+    "image_id": 149,
+    "x": "9번 벽체 보 150 100 양면",
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ],
+    "text_candidate_y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ],
+    "discrepancy_type": "규격 불일치",
+    "reason": "배관 사이즈 육안 확인 후 수정 (150 -> 50)"
+  },
+  {
+    "org_index": 234,
+    "site": "DG2",
+    "image_id": 25,
+    "x": "6번 벽체 보 1600*1000 차열마감2번 보 150 100 양면",
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1600*1000",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1600*1000",
+        "quantity": 2.0
+      }
+    ],
+    "text_candidate_y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1600*1000",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1600*1000",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ],
+    "discrepancy_type": "규격 불일치",
+    "reason": "배관 사이즈 육안 확인 후 수정 (150 -> 50)"
+  },
+  {
+    "org_index": 306,
+    "site": "DG2",
+    "image_id": 97,
+    "x": "2번.무덕트.600×400차열마감=2번양면",
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "600*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "600*400",
+        "quantity": 2.0
+      }
+    ],
+    "text_candidate_y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "600*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "600*400",
+        "quantity": 2.0
+      }
+    ],
+    "discrepancy_type": "보온여부 불일치",
+    "reason": "차열재/덕트 색상(무광회색 vs 은박) 사진 확인 후 보온덕트로 수정"
+  },
+  {
+    "org_index": 427,
+    "site": "DG2",
+    "image_id": 218,
+    "x": "2번.보덕트800×600.차열2번양면",
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "600*800",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "600*800",
+        "quantity": 2.0
+      }
+    ],
+    "text_candidate_y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "800*600",
+        "quantity": 2.0
+      }
+    ],
+    "discrepancy_type": "규격 표기 반전",
+    "reason": "덕트 치수 가로*세로 표기 순서 정정 (800*600 -> 600*800)"
+  },
+  {
+    "org_index": 428,
+    "site": "DG2",
+    "image_id": 219,
+    "x": "3번.보덕트800×600.차열2번양면",
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "600*800",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "600*800",
+        "quantity": 2.0
+      }
+    ],
+    "text_candidate_y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "800*600",
+        "quantity": 2.0
+      }
+    ],
+    "discrepancy_type": "규격 표기 반전",
+    "reason": "덕트 치수 가로*세로 표기 순서 정정 (800*600 -> 600*800)"
+  },
+  {
+    "org_index": 444,
+    "site": "DG3",
+    "image_id": 5,
+    "x": "5번 입상 보 50*2 단면",
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ],
+    "text_candidate_y": [
+      {
+        "workType": "금속관입상",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ],
+    "discrepancy_type": "관통방향/수량 불일치",
+    "reason": "50A 배관 단면*2개소 확인 후 벽체 1개로 정리 (입상 -> 벽체)"
+  },
+  {
+    "org_index": 475,
+    "site": "DG3",
+    "image_id": 36,
+    "x": "5번 입상 무 2000*600 차열마감8번",
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "2000*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "2000*600",
+        "quantity": 4.0
+      }
+    ],
+    "text_candidate_y": [
+      {
+        "workType": "무보온덕트입상",
+        "spec": "2000*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온입상차열재마감",
+        "spec": "2000*600",
+        "quantity": 4.0
+      }
+    ],
+    "discrepancy_type": "관통방향 불일치",
+    "reason": "시공 상태 사진 확인 후 입상 -> 벽체로 수정"
+  },
+  {
+    "org_index": 597,
+    "site": "DG4",
+    "image_id": 52,
+    "x": "9- D 무덕트 2200*600*2 (재시공 후) 단면",
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "2200*600",
+        "quantity": 0.5
+      }
+    ],
+    "text_candidate_y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "2200*600",
+        "quantity": 1.0
+      }
+    ],
+    "discrepancy_type": "보온여부/수량 불일치",
+    "reason": "무덕트 표기이나 실 시공 상태(보온) 확인 후 수정"
+  },
+  {
+    "org_index": 600,
+    "site": "DG4",
+    "image_id": 55,
+    "x": "12- D 무덕트 충전프레싱마감 단면",
+    "y": [
+      {
+        "workType": "덕트마감",
+        "spec": "600*600",
+        "quantity": 0.5
+      }
+    ],
+    "text_candidate_y": [
+      {
+        "workType": "덕트마감",
+        "spec": "",
+        "quantity": 0.5
+      }
+    ],
+    "discrepancy_type": "규격 누락 보정",
+    "reason": "텍스트에 규격 미기재이나 도면/현장 규격(600*600) 반영"
+  },
+  {
+    "org_index": 803,
+    "site": "GJ",
+    "image_id": 198,
+    "x": "3-벽체D 50보D 40pvc 150*2 칼라형 양면",
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "50",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관입상",
+        "spec": "40",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC입상",
+        "spec": "150",
+        "quantity": 2.0
+      }
+    ],
+    "text_candidate_y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "40",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "150",
+        "quantity": 2.0
+      }
+    ],
+    "discrepancy_type": "관통방향 불일치",
+    "reason": "시공 상태 사진 확인 후 벽체 -> 입상으로 수정"
+  },
+  {
+    "org_index": 890,
+    "site": "GJ",
+    "image_id": 285,
+    "x": "11 덕트벽체 1400×500 차열=1번 양면",
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1400*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1400*500",
+        "quantity": 0.5
+      }
+    ],
+    "text_candidate_y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1400*500",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1400*500",
+        "quantity": 1.0
+      }
+    ],
+    "discrepancy_type": "수량 불일치",
+    "reason": "양면 표기이나 사진상 단면 시공 확인 (0.5)"
+  },
+  {
+    "org_index": 995,
+    "site": "GJ",
+    "image_id": 390,
+    "x": "5번 벽체 무 1200*800 1200*600 차열마감1번 단면",
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1200*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1200*600",
+        "quantity": 0.5
+      }
+    ],
+    "text_candidate_y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1200*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1200*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1200*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1200*600",
+        "quantity": 0.5
+      }
+    ],
+    "discrepancy_type": "보온여부 불일치",
+    "reason": "덕트+차열재마감 시공 상태 사진 확인 후 보온으로 분류"
+  },
+  {
+    "org_index": 1037,
+    "site": "GJ",
+    "image_id": 432,
+    "x": "5번 벽체 무 700*400 900*500 1300*800차열마감1번 단면",
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "700*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "900*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1300*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "700*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "900*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1300*800",
+        "quantity": 0.5
+      }
+    ],
+    "text_candidate_y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "700*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "900*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1300*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "700*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "900*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1300*800",
+        "quantity": 0.5
+      }
+    ],
+    "discrepancy_type": "보온여부 불일치",
+    "reason": "덕트+차열재마감 시공 상태 사진 확인 후 보온으로 분류"
+  },
+  {
+    "org_index": 1275,
+    "site": "GJ",
+    "image_id": 670,
+    "x": "3-벽체 보덕트1100*300 차열 2번 단면",
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1100*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1100*300",
+        "quantity": 0.5
+      }
+    ],
+    "text_candidate_y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1100*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1100*300",
+        "quantity": 1.0
+      }
+    ],
+    "discrepancy_type": "마감횟수 불일치",
+    "reason": "차열 2번 표기이나 육안상 차열재 1번 감은 것으로 확인되어 단면 0.5 반영"
+  },
+  {
+    "org_index": 1292,
+    "site": "GJ",
+    "image_id": 687,
+    "x": "14번 벽체보30×3 pvc80.50 단면",
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 3.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "75",
+        "quantity": 0.5
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "50",
+        "quantity": 0.5
+      }
+    ],
+    "text_candidate_y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 1.5
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "75",
+        "quantity": 0.5
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "50",
+        "quantity": 0.5
+      }
+    ],
+    "discrepancy_type": "수량 불일치",
+    "reason": "단면 0.5*3=1.5가 아닌 실 개소 기준 3.0 반영"
+  },
+  {
+    "org_index": 1593,
+    "site": "SB",
+    "image_id": 96,
+    "x": "26번.벽체.보.덕트.1400*600.1200*600.단면",
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1400*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1400*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1200*600",
+        "quantity": 1.0
+      }
+    ],
+    "text_candidate_y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1400*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*600",
+        "quantity": 0.5
+      }
+    ],
+    "discrepancy_type": "누락공종 추가",
+    "reason": "시공자 유선 확인 후 차열재마감 시공 반영"
+  },
+  {
+    "org_index": 1893,
+    "site": "SB",
+    "image_id": 396,
+    "x": "4.pvc 50.무D 20 양면",
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "25",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ],
+    "text_candidate_y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "50",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "20",
+        "quantity": 1.0
+      }
+    ],
+    "discrepancy_type": "규격 교차 오기입",
+    "reason": "pvc/금속관 규격 뒤바뀜 시공 상태 확인 후 정정"
+  }
+]

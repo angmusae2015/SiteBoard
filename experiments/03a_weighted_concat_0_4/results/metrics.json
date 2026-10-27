@@ -1,0 +1,36 @@
+{
+  "runs": [
+    {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "adapter": null,
+      "device": "Tesla T4",
+      "dtype": "float16",
+      "batch_size": 16,
+      "accuracy": 87.78761061946902,
+      "total": 565,
+      "correct": 496,
+      "value_avg_confidence": 0.9945,
+      "correct_value_avg_confidence": 0.996,
+      "incorrect_value_avg_confidence": 0.9838,
+      "artifact_status": "not_bundled",
+      "path_note": "구조 개편 시 경로 메타데이터만 정리했습니다. 예측 및 평가 수치는 원본 기록입니다.",
+      "report": "experiments/03_weighted_concatenation/results/eval_results_smooth_0.4.json"
+    },
+    {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "adapter": null,
+      "device": "Tesla T4",
+      "dtype": "float16",
+      "batch_size": 16,
+      "accuracy": 89.5575221238938,
+      "total": 565,
+      "correct": 506,
+      "value_avg_confidence": 0.9936,
+      "correct_value_avg_confidence": 0.9953,
+      "incorrect_value_avg_confidence": 0.979,
+      "artifact_status": "not_bundled",
+      "path_note": "구조 개편 시 경로 메타데이터만 정리했습니다. 예측 및 평가 수치는 원본 기록입니다.",
+      "report": "experiments/03_weighted_concatenation/results/eval_results_smooth_0.7.json"
+    }
+  ]
+}

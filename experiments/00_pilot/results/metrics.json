@@ -1,0 +1,22 @@
+{
+  "runs": [
+    {
+      "model_name_or_path": "Qwen/Qwen2.5-1.5B-Instruct",
+      "adapter_path": "artifacts/models/00_pilot",
+      "test_file": "dataset/splits/00_pilot/test.jsonl",
+      "total_samples": 20,
+      "correct_samples": 10,
+      "accuracy": 50.0,
+      "error_distribution": {
+        "EXACT_MATCH": 10,
+        "COUNT_MISMATCH": 3,
+        "SPEC_MISMATCH": 4,
+        "WORK_TYPE_MISMATCH": 2,
+        "QUANTITY_MISMATCH": 1
+      },
+      "artifact_status": "bundled",
+      "path_note": "구조 개편 시 경로 메타데이터만 정리했습니다. 예측 및 평가 수치는 원본 기록입니다.",
+      "report": "experiments/00_pilot/results/eval_results.json"
+    }
+  ]
+}

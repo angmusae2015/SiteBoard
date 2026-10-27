@@ -1,0 +1,20 @@
+{
+  "runs": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "adapter": null,
+      "device": "Tesla T4",
+      "dtype": "float16",
+      "batch_size": 16,
+      "accuracy": 89.36936936936937,
+      "total": 555,
+      "correct": 496,
+      "value_avg_confidence": 0.9949,
+      "correct_value_avg_confidence": 0.9964,
+      "incorrect_value_avg_confidence": 0.9819,
+      "artifact_status": "not_bundled",
+      "path_note": "구조 개편 시 경로 메타데이터만 정리했습니다. 예측 및 평가 수치는 원본 기록입니다.",
+      "report": "experiments/04_refined_dataset/results/eval_results_3b.json"
+    }
+  ]
+}

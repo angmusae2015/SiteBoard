@@ -1,0 +1,899 @@
+{
+  "model_name_or_path": "Qwen/Qwen2.5-1.5B-Instruct",
+  "adapter_path": "artifacts/models/00_pilot",
+  "test_file": "dataset/splits/00_pilot/test.jsonl",
+  "total_samples": 20,
+  "correct_samples": 10,
+  "accuracy": 50.0,
+  "error_distribution": {
+    "EXACT_MATCH": 10,
+    "COUNT_MISMATCH": 3,
+    "SPEC_MISMATCH": 4,
+    "WORK_TYPE_MISMATCH": 2,
+    "QUANTITY_MISMATCH": 1
+  },
+  "cases": [
+    {
+      "case_id": 1,
+      "site": "SB",
+      "image_id": 63,
+      "input_user": "현장: SB\n보드판 텍스트: 19. pvc 100.125.150 양면",
+      "ground_truth_raw": "[{\"workType\": \"PVC벽체\", \"spec\": \"100\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"125\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"150\", \"quantity\": 1.0}]",
+      "ground_truth": [
+        {
+          "workType": "PVC벽체",
+          "spec": "100",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "125",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "150",
+          "quantity": 1.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"PVC벽체\", \"spec\": \"100\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"125\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"150\", \"quantity\": 1.0}]",
+      "prediction": [
+        {
+          "workType": "PVC벽체",
+          "spec": "100",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "125",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "150",
+          "quantity": 1.0
+        }
+      ],
+      "is_exact_match": true,
+      "error_category": "EXACT_MATCH"
+    },
+    {
+      "case_id": 2,
+      "site": "SB",
+      "image_id": 250,
+      "input_user": "현장: SB\n보드판 텍스트: 1.pvc 100.125.80 양면",
+      "ground_truth_raw": "[{\"workType\": \"PVC벽체\", \"spec\": \"100\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"125\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"75\", \"quantity\": 1.0}]",
+      "ground_truth": [
+        {
+          "workType": "PVC벽체",
+          "spec": "100",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "125",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "75",
+          "quantity": 1.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"PVC벽체\", \"spec\": \"100\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"125\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"75\", \"quantity\": 1.0}]",
+      "prediction": [
+        {
+          "workType": "PVC벽체",
+          "spec": "100",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "125",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "75",
+          "quantity": 1.0
+        }
+      ],
+      "is_exact_match": true,
+      "error_category": "EXACT_MATCH"
+    },
+    {
+      "case_id": 3,
+      "site": "SB",
+      "image_id": 263,
+      "input_user": "현장: SB\n보드판 텍스트: 14.pvc 100.125.50 양면",
+      "ground_truth_raw": "[{\"workType\": \"PVC벽체\", \"spec\": \"100\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"125\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"50\", \"quantity\": 1.0}]",
+      "ground_truth": [
+        {
+          "workType": "PVC벽체",
+          "spec": "100",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "125",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "50",
+          "quantity": 1.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"PVC벽체\", \"spec\": \"100\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"125\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"50\", \"quantity\": 1.0}]",
+      "prediction": [
+        {
+          "workType": "PVC벽체",
+          "spec": "100",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "125",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "50",
+          "quantity": 1.0
+        }
+      ],
+      "is_exact_match": true,
+      "error_category": "EXACT_MATCH"
+    },
+    {
+      "case_id": 4,
+      "site": "SB",
+      "image_id": 279,
+      "input_user": "현장: SB\n보드판 텍스트: 30.pvc 100.125.80 양면",
+      "ground_truth_raw": "[{\"workType\": \"PVC벽체\", \"spec\": \"100\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"125\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"75\", \"quantity\": 1.0}]",
+      "ground_truth": [
+        {
+          "workType": "PVC벽체",
+          "spec": "100",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "125",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "75",
+          "quantity": 1.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"PVC벽체\", \"spec\": \"100\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"125\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"75\", \"quantity\": 1.0}]",
+      "prediction": [
+        {
+          "workType": "PVC벽체",
+          "spec": "100",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "125",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "75",
+          "quantity": 1.0
+        }
+      ],
+      "is_exact_match": true,
+      "error_category": "EXACT_MATCH"
+    },
+    {
+      "case_id": 5,
+      "site": "SB",
+      "image_id": 584,
+      "input_user": "현장: SB\n보드판 텍스트: 6.pvc 100*2.80.50 양면",
+      "ground_truth_raw": "[{\"workType\": \"PVC벽체\", \"spec\": \"100\", \"quantity\": 2.0}, {\"workType\": \"PVC벽체\", \"spec\": \"75\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"50\", \"quantity\": 1.0}]",
+      "ground_truth": [
+        {
+          "workType": "PVC벽체",
+          "spec": "100",
+          "quantity": 2.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "75",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "50",
+          "quantity": 1.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"PVC벽체\", \"spec\": \"100\", \"quantity\": 2.0}, {\"workType\": \"PVC벽체\", \"spec\": \"50\", \"quantity\": 1.0}]",
+      "prediction": [
+        {
+          "workType": "PVC벽체",
+          "spec": "100",
+          "quantity": 2.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "50",
+          "quantity": 1.0
+        }
+      ],
+      "is_exact_match": false,
+      "error_category": "COUNT_MISMATCH"
+    },
+    {
+      "case_id": 6,
+      "site": "JW",
+      "image_id": 8,
+      "input_user": "현장: JW\n보드판 텍스트: 1 - D 벽체 50*3 80. (시공후)양면",
+      "ground_truth_raw": "[{\"workType\": \"금속관벽체\", \"spec\": \"50\", \"quantity\": 3.0}, {\"workType\": \"금속관벽체\", \"spec\": \"80\", \"quantity\": 1.0}]",
+      "ground_truth": [
+        {
+          "workType": "금속관벽체",
+          "spec": "50",
+          "quantity": 3.0
+        },
+        {
+          "workType": "금속관벽체",
+          "spec": "80",
+          "quantity": 1.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"금속관벽체\", \"spec\": \"50\", \"quantity\": 3.0}, {\"workType\": \"금속관벽체\", \"spec\": \"80\", \"quantity\": 1.0}]",
+      "prediction": [
+        {
+          "workType": "금속관벽체",
+          "spec": "50",
+          "quantity": 3.0
+        },
+        {
+          "workType": "금속관벽체",
+          "spec": "80",
+          "quantity": 1.0
+        }
+      ],
+      "is_exact_match": true,
+      "error_category": "EXACT_MATCH"
+    },
+    {
+      "case_id": 7,
+      "site": "GJ",
+      "image_id": 26,
+      "input_user": "현장: GJ\n보드판 텍스트: 13번 입상 50 보150×2.100×2",
+      "ground_truth_raw": "[{\"workType\": \"금속관입상\", \"spec\": \"100\", \"quantity\": 2.0}, {\"workType\": \"금속관입상\", \"spec\": \"150\", \"quantity\": 2.0}, {\"workType\": \"금속관입상\", \"spec\": \"50\", \"quantity\": 1.0}]",
+      "ground_truth": [
+        {
+          "workType": "금속관입상",
+          "spec": "100",
+          "quantity": 2.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "150",
+          "quantity": 2.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "50",
+          "quantity": 1.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"금속관입상\", \"spec\": \"50\", \"quantity\": 1.0}, {\"workType\": \"금속관입상\", \"spec\": \"150\", \"quantity\": 2.0}, {\"workType\": \"금속관입상\", \"spec\": \"100\", \"quantity\": 2.0}]",
+      "prediction": [
+        {
+          "workType": "금속관입상",
+          "spec": "50",
+          "quantity": 1.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "150",
+          "quantity": 2.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "100",
+          "quantity": 2.0
+        }
+      ],
+      "is_exact_match": true,
+      "error_category": "EXACT_MATCH"
+    },
+    {
+      "case_id": 8,
+      "site": "GJ",
+      "image_id": 27,
+      "input_user": "현장: GJ\n보드판 텍스트: 14번 입상 50 보150×2.100×2",
+      "ground_truth_raw": "[{\"workType\": \"금속관입상\", \"spec\": \"100\", \"quantity\": 2.0}, {\"workType\": \"금속관입상\", \"spec\": \"150\", \"quantity\": 2.0}, {\"workType\": \"금속관입상\", \"spec\": \"50\", \"quantity\": 1.0}]",
+      "ground_truth": [
+        {
+          "workType": "금속관입상",
+          "spec": "100",
+          "quantity": 2.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "150",
+          "quantity": 2.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "50",
+          "quantity": 1.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"금속관입상\", \"spec\": \"50\", \"quantity\": 1.0}, {\"workType\": \"금속관입상\", \"spec\": \"150\", \"quantity\": 2.0}, {\"workType\": \"금속관입상\", \"spec\": \"100\", \"quantity\": 2.0}]",
+      "prediction": [
+        {
+          "workType": "금속관입상",
+          "spec": "50",
+          "quantity": 1.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "150",
+          "quantity": 2.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "100",
+          "quantity": 2.0
+        }
+      ],
+      "is_exact_match": true,
+      "error_category": "EXACT_MATCH"
+    },
+    {
+      "case_id": 9,
+      "site": "GJ",
+      "image_id": 374,
+      "input_user": "현장: GJ\n보드판 텍스트: 15번 입상보 100×3.80×2",
+      "ground_truth_raw": "[{\"workType\": \"금속관입상\", \"spec\": \"100\", \"quantity\": 3.0}, {\"workType\": \"금속관입상\", \"spec\": \"80\", \"quantity\": 2.0}]",
+      "ground_truth": [
+        {
+          "workType": "금속관입상",
+          "spec": "100",
+          "quantity": 3.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "80",
+          "quantity": 2.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"금속관입상\", \"spec\": \"100\", \"quantity\": 3.0}, {\"workType\": \"금속관입상\", \"spec\": \"80\", \"quantity\": 2.0}]",
+      "prediction": [
+        {
+          "workType": "금속관입상",
+          "spec": "100",
+          "quantity": 3.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "80",
+          "quantity": 2.0
+        }
+      ],
+      "is_exact_match": true,
+      "error_category": "EXACT_MATCH"
+    },
+    {
+      "case_id": 10,
+      "site": "GJ",
+      "image_id": 377,
+      "input_user": "현장: GJ\n보드판 텍스트: 18번 입상보 100×3.80×3",
+      "ground_truth_raw": "[{\"workType\": \"금속관입상\", \"spec\": \"100\", \"quantity\": 3.0}, {\"workType\": \"금속관입상\", \"spec\": \"80\", \"quantity\": 3.0}]",
+      "ground_truth": [
+        {
+          "workType": "금속관입상",
+          "spec": "100",
+          "quantity": 3.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "80",
+          "quantity": 3.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"금속관입상\", \"spec\": \"100\", \"quantity\": 3.0}, {\"workType\": \"금속관입상\", \"spec\": \"80\", \"quantity\": 3.0}]",
+      "prediction": [
+        {
+          "workType": "금속관입상",
+          "spec": "100",
+          "quantity": 3.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "80",
+          "quantity": 3.0
+        }
+      ],
+      "is_exact_match": true,
+      "error_category": "EXACT_MATCH"
+    },
+    {
+      "case_id": 11,
+      "site": "GJ",
+      "image_id": 24,
+      "input_user": "현장: GJ\n보드판 텍스트: 11번 입상 보100×5.80×4",
+      "ground_truth_raw": "[{\"workType\": \"금속관입상\", \"spec\": \"100\", \"quantity\": 5.0}, {\"workType\": \"금속관입상\", \"spec\": \"80\", \"quantity\": 4.0}]",
+      "ground_truth": [
+        {
+          "workType": "금속관입상",
+          "spec": "100",
+          "quantity": 5.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "80",
+          "quantity": 4.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"금속관입상\", \"spec\": \"100\", \"quantity\": 5.0}, {\"workType\": \"금속관입상\", \"spec\": \"80\", \"quantity\": 4.0}]",
+      "prediction": [
+        {
+          "workType": "금속관입상",
+          "spec": "100",
+          "quantity": 5.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "80",
+          "quantity": 4.0
+        }
+      ],
+      "is_exact_match": true,
+      "error_category": "EXACT_MATCH"
+    },
+    {
+      "case_id": 12,
+      "site": "GJ",
+      "image_id": 260,
+      "input_user": "현장: GJ\n보드판 텍스트: 3번 벽체 400 보350×2.50×4 단면",
+      "ground_truth_raw": "[{\"workType\": \"금속관벽체\", \"spec\": \"400\", \"quantity\": 0.5}, {\"workType\": \"금속관벽체\", \"spec\": \"350\", \"quantity\": 1.0}, {\"workType\": \"금속관벽체\", \"spec\": \"50\", \"quantity\": 2.0}]",
+      "ground_truth": [
+        {
+          "workType": "금속관벽체",
+          "spec": "400",
+          "quantity": 0.5
+        },
+        {
+          "workType": "금속관벽체",
+          "spec": "350",
+          "quantity": 1.0
+        },
+        {
+          "workType": "금속관벽체",
+          "spec": "50",
+          "quantity": 2.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"금속관벽체\", \"spec\": \"400\", \"quantity\": 1.0}, {\"workType\": \"금속관벽체\", \"spec\": \"350\", \"quantity\": 1.0}, {\"workType\": \"금속관벽체\", \"spec\": \"250\", \"quantity\": 2.0}]",
+      "prediction": [
+        {
+          "workType": "금속관벽체",
+          "spec": "400",
+          "quantity": 1.0
+        },
+        {
+          "workType": "금속관벽체",
+          "spec": "350",
+          "quantity": 1.0
+        },
+        {
+          "workType": "금속관벽체",
+          "spec": "250",
+          "quantity": 2.0
+        }
+      ],
+      "is_exact_match": false,
+      "error_category": "SPEC_MISMATCH"
+    },
+    {
+      "case_id": 13,
+      "site": "GJ",
+      "image_id": 533,
+      "input_user": "현장: GJ\n보드판 텍스트: 3번 입상80×3.50×2",
+      "ground_truth_raw": "[{\"workType\": \"금속관입상\", \"spec\": \"80\", \"quantity\": 3.0}, {\"workType\": \"금속관입상\", \"spec\": \"50\", \"quantity\": 2.0}]",
+      "ground_truth": [
+        {
+          "workType": "금속관입상",
+          "spec": "80",
+          "quantity": 3.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "50",
+          "quantity": 2.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"금속관입상\", \"spec\": \"75\", \"quantity\": 1.0}, {\"workType\": \"금속관입상\", \"spec\": \"50\", \"quantity\": 2.0}]",
+      "prediction": [
+        {
+          "workType": "금속관입상",
+          "spec": "75",
+          "quantity": 1.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "50",
+          "quantity": 2.0
+        }
+      ],
+      "is_exact_match": false,
+      "error_category": "SPEC_MISMATCH"
+    },
+    {
+      "case_id": 14,
+      "site": "GJ",
+      "image_id": 637,
+      "input_user": "현장: GJ\n보드판 텍스트: 5-D 입상 무 100*3 125 60 pvc 100",
+      "ground_truth_raw": "[{\"workType\": \"금속관입상\", \"spec\": \"100\", \"quantity\": 3.0}, {\"workType\": \"금속관입상\", \"spec\": \"125\", \"quantity\": 1.0}, {\"workType\": \"금속관입상\", \"spec\": \"65\", \"quantity\": 1.0}, {\"workType\": \"PVC입상\", \"spec\": \"100\", \"quantity\": 1.0}]",
+      "ground_truth": [
+        {
+          "workType": "금속관입상",
+          "spec": "100",
+          "quantity": 3.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "125",
+          "quantity": 1.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "65",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC입상",
+          "spec": "100",
+          "quantity": 1.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"금속관입상\", \"spec\": \"100\", \"quantity\": 3.0}, {\"workType\": \"금속관입상\", \"spec\": \"125\", \"quantity\": 1.0}, {\"workType\": \"금속관입상\", \"spec\": \"60\", \"quantity\": 1.0}, {\"workType\": \"PVC입상\", \"spec\": \"100\", \"quantity\": 1.0}]",
+      "prediction": [
+        {
+          "workType": "금속관입상",
+          "spec": "100",
+          "quantity": 3.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "125",
+          "quantity": 1.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "60",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC입상",
+          "spec": "100",
+          "quantity": 1.0
+        }
+      ],
+      "is_exact_match": false,
+      "error_category": "SPEC_MISMATCH"
+    },
+    {
+      "case_id": 15,
+      "site": "SB",
+      "image_id": 38,
+      "input_user": "현장: SB\n보드판 텍스트: 15.pvc 100*3 무D 50*6.30*3 양면",
+      "ground_truth_raw": "[{\"workType\": \"PVC벽체\", \"spec\": \"100\", \"quantity\": 3.0}, {\"workType\": \"금속관벽체\", \"spec\": \"50\", \"quantity\": 6.0}, {\"workType\": \"금속관벽체\", \"spec\": \"32\", \"quantity\": 3.0}]",
+      "ground_truth": [
+        {
+          "workType": "PVC벽체",
+          "spec": "100",
+          "quantity": 3.0
+        },
+        {
+          "workType": "금속관벽체",
+          "spec": "50",
+          "quantity": 6.0
+        },
+        {
+          "workType": "금속관벽체",
+          "spec": "32",
+          "quantity": 3.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"PVC벽체\", \"spec\": \"100\", \"quantity\": 3.0}, {\"workType\": \"PVC벽체\", \"spec\": \"50\", \"quantity\": 6.0}, {\"workType\": \"PVC벽체\", \"spec\": \"32\", \"quantity\": 3.0}]",
+      "prediction": [
+        {
+          "workType": "PVC벽체",
+          "spec": "100",
+          "quantity": 3.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "50",
+          "quantity": 6.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "32",
+          "quantity": 3.0
+        }
+      ],
+      "is_exact_match": false,
+      "error_category": "WORK_TYPE_MISMATCH"
+    },
+    {
+      "case_id": 16,
+      "site": "GJ",
+      "image_id": 666,
+      "input_user": "현장: GJ\n보드판 텍스트: 7번 입상 무 400*200 차열마감1번 무100*4 80*4 20*2",
+      "ground_truth_raw": "[{\"workType\": \"무보온덕트입상\", \"spec\": \"400*200\", \"quantity\": 0.5}, {\"workType\": \"무보온입상차열재마감\", \"spec\": \"400*200\", \"quantity\": 0.5}, {\"workType\": \"금속관입상\", \"spec\": \"100\", \"quantity\": 4.0}, {\"workType\": \"금속관입상\", \"spec\": \"80\", \"quantity\": 4.0}, {\"workType\": \"금속관입상\", \"spec\": \"20\", \"quantity\": 2.0}]",
+      "ground_truth": [
+        {
+          "workType": "무보온덕트입상",
+          "spec": "400*200",
+          "quantity": 0.5
+        },
+        {
+          "workType": "무보온입상차열재마감",
+          "spec": "400*200",
+          "quantity": 0.5
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "100",
+          "quantity": 4.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "80",
+          "quantity": 4.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "20",
+          "quantity": 2.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"무보온덕트입상\", \"spec\": \"400*200\", \"quantity\": 1.0}, {\"workType\": \"차열재마감\", \"spec\": \"400*200\", \"quantity\": 1.0}, {\"workType\": \"금속관벽체\", \"spec\": \"100*4\", \"quantity\": 1.0}, {\"workType\": \"금속관벽체\", \"spec\": \"80*4\", \"quantity\": 1.0}, {\"workType\": \"금속관벽체\", \"spec\": \"20*2\", \"quantity\": 1.0}]",
+      "prediction": [
+        {
+          "workType": "무보온덕트입상",
+          "spec": "400*200",
+          "quantity": 1.0
+        },
+        {
+          "workType": "차열재마감",
+          "spec": "400*200",
+          "quantity": 1.0
+        },
+        {
+          "workType": "금속관벽체",
+          "spec": "100*4",
+          "quantity": 1.0
+        },
+        {
+          "workType": "금속관벽체",
+          "spec": "80*4",
+          "quantity": 1.0
+        },
+        {
+          "workType": "금속관벽체",
+          "spec": "20*2",
+          "quantity": 1.0
+        }
+      ],
+      "is_exact_match": false,
+      "error_category": "WORK_TYPE_MISMATCH"
+    },
+    {
+      "case_id": 17,
+      "site": "GJ",
+      "image_id": 509,
+      "input_user": "현장: GJ\n보드판 텍스트: 5-AD 벽체 보150,무150 양면",
+      "ground_truth_raw": "[{\"workType\": \"금속관벽체\", \"spec\": \"150\", \"quantity\": 1.0}, {\"workType\": \"금속관벽체\", \"spec\": \"150\", \"quantity\": 1.0}]",
+      "ground_truth": [
+        {
+          "workType": "금속관벽체",
+          "spec": "150",
+          "quantity": 1.0
+        },
+        {
+          "workType": "금속관벽체",
+          "spec": "150",
+          "quantity": 1.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"금속관벽체\", \"spec\": \"150\", \"quantity\": 1.0}]",
+      "prediction": [
+        {
+          "workType": "금속관벽체",
+          "spec": "150",
+          "quantity": 1.0
+        }
+      ],
+      "is_exact_match": false,
+      "error_category": "COUNT_MISMATCH"
+    },
+    {
+      "case_id": 18,
+      "site": "GJ",
+      "image_id": 318,
+      "input_user": "현장: GJ\n보드판 텍스트: 12- 벽체 보D125*2.100.50 pvc200.150.100 단면",
+      "ground_truth_raw": "[{\"workType\": \"금속관벽체\", \"spec\": \"125\", \"quantity\": 1.0}, {\"workType\": \"금속관벽체\", \"spec\": \"100\", \"quantity\": 0.5}, {\"workType\": \"금속관벽체\", \"spec\": \"50\", \"quantity\": 0.5}, {\"workType\": \"PVC벽체\", \"spec\": \"200\", \"quantity\": 0.5}, {\"workType\": \"PVC벽체\", \"spec\": \"150\", \"quantity\": 0.5}, {\"workType\": \"PVC벽체\", \"spec\": \"100\", \"quantity\": 0.5}]",
+      "ground_truth": [
+        {
+          "workType": "금속관벽체",
+          "spec": "125",
+          "quantity": 1.0
+        },
+        {
+          "workType": "금속관벽체",
+          "spec": "100",
+          "quantity": 0.5
+        },
+        {
+          "workType": "금속관벽체",
+          "spec": "50",
+          "quantity": 0.5
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "200",
+          "quantity": 0.5
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "150",
+          "quantity": 0.5
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "100",
+          "quantity": 0.5
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"금속관벽체\", \"spec\": \"125\", \"quantity\": 2.0}, {\"workType\": \"금속관벽체\", \"spec\": \"100\", \"quantity\": 1.0}, {\"workType\": \"금속관벽체\", \"spec\": \"50\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"200\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"150\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"100\", \"quantity\": 1.0}]",
+      "prediction": [
+        {
+          "workType": "금속관벽체",
+          "spec": "125",
+          "quantity": 2.0
+        },
+        {
+          "workType": "금속관벽체",
+          "spec": "100",
+          "quantity": 1.0
+        },
+        {
+          "workType": "금속관벽체",
+          "spec": "50",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "200",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "150",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "100",
+          "quantity": 1.0
+        }
+      ],
+      "is_exact_match": false,
+      "error_category": "QUANTITY_MISMATCH"
+    },
+    {
+      "case_id": 19,
+      "site": "GJ",
+      "image_id": 558,
+      "input_user": "현장: GJ\n보드판 텍스트: 28번 벽체보100.50×2 pvc100×3.50 단면",
+      "ground_truth_raw": "[{\"workType\": \"금속관벽체\", \"spec\": \"100\", \"quantity\": 0.5}, {\"workType\": \"금속관벽체\", \"spec\": \"50\", \"quantity\": 1.0}, {\"workType\": \"PVC벽체\", \"spec\": \"100\", \"quantity\": 1.5}, {\"workType\": \"PVC벽체\", \"spec\": \"50\", \"quantity\": 0.5}]",
+      "ground_truth": [
+        {
+          "workType": "금속관벽체",
+          "spec": "100",
+          "quantity": 0.5
+        },
+        {
+          "workType": "금속관벽체",
+          "spec": "50",
+          "quantity": 1.0
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "100",
+          "quantity": 1.5
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "50",
+          "quantity": 0.5
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"금속관벽체\", \"spec\": \"100\", \"quantity\": 0.5}, {\"workType\": \"PVC벽체\", \"spec\": \"50\", \"quantity\": 1.5}]",
+      "prediction": [
+        {
+          "workType": "금속관벽체",
+          "spec": "100",
+          "quantity": 0.5
+        },
+        {
+          "workType": "PVC벽체",
+          "spec": "50",
+          "quantity": 1.5
+        }
+      ],
+      "is_exact_match": false,
+      "error_category": "COUNT_MISMATCH"
+    },
+    {
+      "case_id": 20,
+      "site": "GJ",
+      "image_id": 667,
+      "input_user": "현장: GJ\n보드판 텍스트: 8번 입상 무 80*4 100*5 pvc100*2 32*2",
+      "ground_truth_raw": "[{\"workType\": \"금속관입상\", \"spec\": \"80\", \"quantity\": 4.0}, {\"workType\": \"금속관입상\", \"spec\": \"100\", \"quantity\": 5.0}, {\"workType\": \"PVC입상\", \"spec\": \"100\", \"quantity\": 2.0}, {\"workType\": \"PVC입상\", \"spec\": \"30\", \"quantity\": 2.0}]",
+      "ground_truth": [
+        {
+          "workType": "금속관입상",
+          "spec": "80",
+          "quantity": 4.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "100",
+          "quantity": 5.0
+        },
+        {
+          "workType": "PVC입상",
+          "spec": "100",
+          "quantity": 2.0
+        },
+        {
+          "workType": "PVC입상",
+          "spec": "30",
+          "quantity": 2.0
+        }
+      ],
+      "prediction_raw": "[{\"workType\": \"금속관입상\", \"spec\": \"75\", \"quantity\": 4.0}, {\"workType\": \"금속관입상\", \"spec\": \"100\", \"quantity\": 5.0}, {\"workType\": \"PVC입상\", \"spec\": \"100\", \"quantity\": 2.0}, {\"workType\": \"PVC입상\", \"spec\": \"32\", \"quantity\": 2.0}]",
+      "prediction": [
+        {
+          "workType": "금속관입상",
+          "spec": "75",
+          "quantity": 4.0
+        },
+        {
+          "workType": "금속관입상",
+          "spec": "100",
+          "quantity": 5.0
+        },
+        {
+          "workType": "PVC입상",
+          "spec": "100",
+          "quantity": 2.0
+        },
+        {
+          "workType": "PVC입상",
+          "spec": "32",
+          "quantity": 2.0
+        }
+      ],
+      "is_exact_match": false,
+      "error_category": "SPEC_MISMATCH"
+    }
+  ],
+  "artifact_status": "bundled",
+  "path_note": "구조 개편 시 경로 메타데이터만 정리했습니다. 예측 및 평가 수치는 원본 기록입니다."
+}

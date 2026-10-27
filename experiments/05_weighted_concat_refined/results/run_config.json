@@ -1,0 +1,97 @@
+{
+  "model_name": "Qwen/Qwen2.5-3B-Instruct",
+  "dataset_file": "/content/drive/MyDrive/SiteBoard/dataset.json",
+  "work_types": "/content/drive/MyDrive/SiteBoard/work_type.json",
+  "output_dir": "/content/drive/MyDrive/SiteBoard/checkpoints",
+  "adapter_path": "/content/drive/MyDrive/SiteBoard/checkpoints/final_adapter",
+  "training": {
+    "epochs": 3,
+    "batch_size": 2,
+    "grad_accum": 4,
+    "learning_rate": 0.0002,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "max_seq_length": 1280,
+    "seed": 42,
+    "method": "qlora",
+    "quantization": {
+      "load_in_4bit": true,
+      "bnb_4bit_quant_type": "nf4",
+      "bnb_4bit_use_double_quant": true,
+      "bnb_4bit_compute_dtype": "float16"
+    }
+  },
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "augmentation": {
+    "probability": 0.5,
+    "max_concat": 2,
+    "delimiters": [
+      " ",
+      "  ",
+      " / ",
+      " . ",
+      "\n",
+      " , ",
+      " + "
+    ],
+    "weighted": true,
+    "weight_power": 0.7,
+    "min_weight": 0.01
+  },
+  "split": {
+    "similarity_threshold": 0.85,
+    "seed": 42,
+    "test_ratio": 0.18,
+    "holdout_cluster_ids": [
+      20,
+      22,
+      35,
+      36,
+      42,
+      65
+    ]
+  },
+  "prepared_data": {
+    "files": {
+      "train_file": "/content/drive/MyDrive/SiteBoard/checkpoints/data/train.jsonl",
+      "test_file": "/content/drive/MyDrive/SiteBoard/checkpoints/data/test.jsonl",
+      "clusters_file": "/content/drive/MyDrive/SiteBoard/checkpoints/data/pattern_clusters.json",
+      "split_meta": "/content/drive/MyDrive/SiteBoard/checkpoints/data/split_meta.json"
+    },
+    "inputs": {
+      "dataset_file": {
+        "path": "/content/drive/MyDrive/SiteBoard/dataset.json",
+        "sha256": "08de6878f59e0c7e4134cef4aeb10a7c01bfb75cdde9996204d820e1d595af71"
+      },
+      "work_types": {
+        "path": "/content/drive/MyDrive/SiteBoard/work_type.json",
+        "sha256": "3f84c8dfe626523f68cb6974d8620eb0bad179b68831386444a328e57b04badb"
+      }
+    },
+    "parameters": {
+      "similarity_threshold": 0.85,
+      "seed": 42,
+      "test_ratio": 0.18,
+      "holdout_cluster_ids": [
+        20,
+        22,
+        35,
+        36,
+        42,
+        65
+      ]
+    },
+    "algorithm_version": "pattern-split-v1",
+    "prompt_version": "siteboard-qwen-v1",
+    "python_version": "3.13.15"
+  }
+}
