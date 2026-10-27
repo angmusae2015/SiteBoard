@@ -8,22 +8,10 @@ version = "0.1.0"
 description = "Independent Qwen experiments and construction-board OCR tools"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = [
-  "torch>=2.2.0",
-  "transformers>=4.40.0",
-  "peft>=0.10.0",
-  "accelerate>=0.29.0",
-  "tqdm>=4.66.0",
-  "google-genai>=0.1.0",
-  "numpy>=1.24.0",
-  "opencv-python-headless>=4.8.0",
-  "pydantic>=2.0.0",
-  "python-dotenv>=1.0.0",
-  "PyYAML>=6.0",
-]
+dynamic = ["dependencies"]
 
-[project.optional-dependencies]
-qlora = ["bitsandbytes>=0.43.0"]
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
 
 [tool.setuptools.packages.find]
 where = ["."]
