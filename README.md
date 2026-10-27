@@ -33,15 +33,25 @@ SiteBoard/
 
 각 실험의 README를 먼저 읽고 필요한 자료 폴더로 이동합니다. 과거 실험에는 보유한 자료만 있으며 정확한 당시 코드가 없어 노트북 구성을 보류했습니다. 기존 설정 JSON의 경로는 당시 기록입니다.
 
+## Git 관리
+
+개인 GitHub의 SiteBoard 비공개 저장소에서 기본 브랜치 `main`을 사용합니다. 코드, 노트북, 문서, 의존성, 프로젝트 설정과 공통 JSON, 실험별 데이터, 분할, 설정, 평가 기록을 추적합니다.
+
+모델 가중치와 토크나이저, 원본 엑셀과 사진은 Git에서 제외합니다. 기존 제외 규칙의 예외인 모델 README와 `adapter_config.json`, 원본 자료 README와 엑셀 매핑 문서는 추적합니다. 가상환경, 캐시, `.env`와 `.env.*`, 노트북 자동 체크포인트, `.presentation-build/`는 제외합니다.
+
+독립적인 변경은 최신 `main`에서 짧은 작업 브랜치를 만들어 진행합니다. `git status`와 `git diff`로 확인한 뒤 대상 경로를 지정해 스테이징하고, `git diff --cached`로 검토하여 목적별로 커밋합니다. 원격에 올린 변경은 검토 후 `main`에 반영합니다.
+
+새 실험은 새 ID를 사용하고 설정, 입력 데이터와 분할, 평가 기록을 해당 실행에 연결해 보존합니다. 과거 자료를 덮어쓰거나 일괄 포맷하지 않습니다.
+
+새로 복제한 저장소에는 제외 자료가 없습니다. 보유 자료를 원래의 프로젝트 상대 경로에 복원하고 파일 해시로 확인한 뒤 필요한 실행을 진행합니다. 외부 백업 위치는 후속 결정 사항이며, Git 도입은 전체 자료의 백업 완료를 뜻하지 않습니다.
+
 ## Google Colab 실행
 
-1. 프로젝트 전체를 Colab 또는 Drive에 준비하고 GPU 런타임을 선택합니다. Drive 연결은 Colab UI에서 수행합니다.
-2. [06 학습 노트북](experiments/06_weighted_concat_refined/train_colab.ipynb)을 열고 프로젝트 루트를 현재 작업 디렉터리로 지정합니다. 필요하면 첫 설정 셀의 `PROJECT_ROOT`를 실행 환경의 루트로 지정하고 `EXPERIMENT_DIR`을 확인합니다.
-3. 첫 설치 셀은 프로젝트 루트의 `requirements-qlora.txt`를 사용합니다. 설치 후 필요하면 런타임을 재시작합니다.
-4. 각 노트북 상단의 `RUNTIME_PARAMS`와 `HYPER_PARAMS` 딕셔너리를 검토하고 필요한 값을 수정한 뒤 위에서 아래로 실행합니다. 실행 셀은 두 딕셔너리를 복사해 `config`로 병합합니다. 경로는 프로젝트 루트 기준 상대 경로입니다.
-5. [06 평가 노트북](experiments/06_weighted_concat_refined/evaluate_colab.ipynb)은 같은 실험의 완료된 학습 기록·평가 데이터·어댑터·토크나이저를 읽어 결과를 저장합니다.
-
-학습 노트북은 정제본과 해당 실험의 공종 마스터 사본을 읽어 전체 Qwen 메시지·패턴 클러스터·train/test·분할 메타데이터를 만든 뒤 QLoRA 학습을 수행합니다. 마스터 생성 함수는 생성 규칙을 정한 뒤 추가할 후속 작업입니다.
+1. 데이터 준비는 프로젝트 루트에서 `experiments/06_weighted_concat_refined`로 이동한 뒤 `cluster.py`, `partition.py`, `build_dataset.py` 순서로 수행합니다. 기존 결과를 보존해야 하는 재실행은 새 실험 ID를 사용합니다. 자세한 입출력은 [06 실험 안내](experiments/06_weighted_concat_refined/README.md)를 따릅니다.
+2. 프로젝트와 필요한 자료를 Colab 또는 Drive에 준비하고 GPU 런타임을 선택합니다. [학습 노트북](experiments/06_weighted_concat_refined/train_colab.ipynb)의 Drive 연결 셀을 실행합니다. 평가만 별도로 진행할 때도 Drive를 먼저 연결합니다.
+3. 학습 노트북의 `RUNTIME_PARAMS["prefix_path"]`를 실행 환경의 자료 위치로 지정합니다. 경로 설정값은 이 위치를 기준으로 해석됩니다. 실험 디렉터리를 기준으로 사용할 경우 `train_file`과 `test_file`은 각각 `data/train.jsonl`, `data/test.jsonl`로 지정합니다. 모델과 결과 저장 경로도 기존 자료와 겹치지 않게 확인합니다.
+4. 설치 셀은 현재 노트북에 직접 선언된 의존성을 설치합니다. `RUNTIME_PARAMS`와 `HYPER_PARAMS`를 검토하고 위에서 아래로 실행합니다. 학습 노트북은 준비된 JSONL을 읽어 문장 결합 증강과 QLoRA 학습을 수행합니다.
+5. [평가 노트북](experiments/06_weighted_concat_refined/evaluate_colab.ipynb)도 `prefix_path`, 평가 데이터, 어댑터와 결과 경로를 지정하고 같은 실험의 학습된 어댑터와 토크나이저로 평가합니다.
 
 현재 06은 `min_weight=1.0` 등 기존 설정의 학습·증강 값을 유지합니다. 05의 `0.01` 조건과 혼동하지 않습니다. 입력 해시·실제 설정·라이브러리 버전·확보 가능한 기본 모델 revision을 기록하며 기존 산출물은 덮어쓰지 않습니다. 보존할 새 실행은 새 실험 ID와 독립된 파일 사본을 사용합니다.
 
