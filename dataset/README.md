@@ -179,7 +179,7 @@
 - 사용하지 않는 augmentation_dict.json과 공통 qwen_finetune.jsonl·pattern_clusters.json은 사용자 동의에 따라 삭제했습니다.
 - work_type.json과 기존 splits 자료는 각 관련 실험의 data/로 이관했습니다.
 - 과거 실험의 데이터·평가 기록을 유지하고 정확한 코드가 없어 노트북 구성을 보류했습니다.
-- 신규 실행은 [06 실험](../experiments/06_weighted_concat_refined/README.md)에서 준비합니다.
+- 신규 실행은 [06 실험](../experiments/06/README.md)에서 준비합니다.
 
 ### 2026-10-22: 문서 소유 위치 정리
 

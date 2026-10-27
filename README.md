@@ -47,12 +47,18 @@ SiteBoard/
 
 ## Google Colab 실행
 
-1. 데이터 준비는 프로젝트 루트에서 `experiments/06_weighted_concat_refined`로 이동한 뒤 `cluster.py`, `partition.py`, `build_dataset.py` 순서로 수행합니다. 기존 결과를 보존해야 하는 재실행은 새 실험 ID를 사용합니다. 자세한 입출력은 [06 실험 안내](experiments/06_weighted_concat_refined/README.md)를 따릅니다.
-2. 프로젝트와 필요한 자료를 Colab 또는 Drive에 준비하고 GPU 런타임을 선택합니다. [학습 노트북](experiments/06_weighted_concat_refined/train_colab.ipynb)의 Drive 연결 셀을 실행합니다. 평가만 별도로 진행할 때도 Drive를 먼저 연결합니다.
+1. 데이터 준비는 프로젝트 루트에서 `experiments/06`으로 이동한 뒤 `cluster.py`, `partition.py`, `build_dataset.py` 순서로 수행합니다. 기존 결과를 보존해야 하는 재실행은 새 실험 ID를 사용합니다. 자세한 입출력은 [06 실험 안내](experiments/06/README.md)를 따릅니다.
+2. 프로젝트와 필요한 자료를 Colab 또는 Drive에 준비하고 GPU 런타임을 선택합니다. [학습 노트북](experiments/06/train_colab.ipynb)의 Drive 연결 셀을 실행합니다. 평가만 별도로 진행할 때도 Drive를 먼저 연결합니다.
 3. 학습 노트북의 `RUNTIME_PARAMS["prefix_path"]`를 실행 환경의 자료 위치로 지정합니다. 경로 설정값은 이 위치를 기준으로 해석됩니다. 실험 디렉터리를 기준으로 사용할 경우 `train_file`과 `test_file`은 각각 `data/train.jsonl`, `data/test.jsonl`로 지정합니다. 모델과 결과 저장 경로도 기존 자료와 겹치지 않게 확인합니다.
 4. 설치 셀은 현재 노트북에 직접 선언된 의존성을 설치합니다. `RUNTIME_PARAMS`와 `HYPER_PARAMS`를 검토하고 위에서 아래로 실행합니다. 학습 노트북은 준비된 JSONL을 읽어 문장 결합 증강과 QLoRA 학습을 수행합니다.
-5. [평가 노트북](experiments/06_weighted_concat_refined/evaluate_colab.ipynb)도 `prefix_path`, 평가 데이터, 어댑터와 결과 경로를 지정하고 같은 실험의 학습된 어댑터와 토크나이저로 평가합니다.
+5. [평가 노트북](experiments/06/evaluate_colab.ipynb)도 `prefix_path`, 평가 데이터, 어댑터와 결과 경로를 지정하고 같은 실험의 학습된 어댑터와 토크나이저로 평가합니다.
 
-현재 06은 `min_weight=1.0` 등 기존 설정의 학습·증강 값을 유지합니다. 05의 `0.01` 조건과 혼동하지 않습니다. 입력 해시·실제 설정·라이브러리 버전·확보 가능한 기본 모델 revision을 기록하며 기존 산출물은 덮어쓰지 않습니다. 보존할 새 실행은 새 실험 ID와 독립된 파일 사본을 사용합니다.
+06은 Qwen 3B의 균등 문장 결합 QLoRA 실험입니다. `min_weight=1.0`으로 파트너 선택 가중치가 균등하며 05의 `0.01` 조건과 구분합니다. [가중치 분석 노트북](experiments/06/weight_test.ipynb)은 역빈도 가중치가 동반 공종 노출과 레코드 반복에 주는 영향을 별도로 보여줍니다. 입력 해시·실제 설정·라이브러리 버전·확보 가능한 기본 모델 revision을 기록하며 기존 산출물은 덮어쓰지 않습니다. 보존할 새 실행은 새 실험 ID와 독립된 파일 사본을 사용합니다.
 
-Colab의 임시 런타임을 종료하기 전에 실험 디렉터리 전체를 Drive 등 지속 저장소에 보존해야 합니다. 과거 기본 모델의 정확한 revision은 확인되지 않았으며, 06의 실제 GPU 학습·평가는 아직 검증하지 않았습니다.
+Colab의 임시 런타임을 종료하기 전에 실험 디렉터리 전체를 Drive 등 지속 저장소에 보존해야 합니다. 06은 학습과 평가를 수행했으며 사용자 요청으로 해당 모델과 원본 실행 및 평가 산출물을 삭제했습니다. 현재 보유 상태와 역빈도 가중 증강의 한계는 [06 실험 안내](experiments/06/README.md)를 따릅니다.
+
+## 데스크톱 실행과 분석
+
+06의 [학습 노트북](experiments/06/train_desktop.ipynb)과 [평가 노트북](experiments/06/evaluate_desktop.ipynb)은 프로젝트의 `.venv/Scripts/python.exe` 커널과 루트 [requirements.txt](requirements.txt)를 사용합니다. GPU 학습에는 CUDA가 필요합니다. 설치와 경로 설정은 각 노트북과 [06 실행 안내](experiments/06/README.md#학습-실행)를 참고하세요.
+
+[weight_test.ipynb](experiments/06/weight_test.ipynb)는 GPU나 모델 없이 train 데이터만으로 현장별 파트너 선택 확률과 공종별 에포크당 예상 노출을 시각화합니다. 희소 공종을 포함한 레코드를 우선 선택하는 방식이 공종 전체의 빈도 균형을 보장하지 않음을 확인할 수 있습니다.
