@@ -10,6 +10,18 @@ readme = "README.md"
 requires-python = ">=3.10"
 dynamic = ["dependencies"]
 
+[project.optional-dependencies]
+unsloth = [
+    "unsloth==2026.10.9",
+    "unsloth_zoo==2026.10.9",
+    "peft==0.18.1",
+    "trl==0.24.0",
+    "torch==2.11.0",
+    "torchvision==0.26.0",
+    "triton-windows>=3.6,<3.7; sys_platform == 'win32'",
+    "xformers @ https://download.pytorch.org/whl/cu128/xformers-0.0.35-py39-none-win_amd64.whl ; sys_platform == 'win32'",
+]
+
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
 
