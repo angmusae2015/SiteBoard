@@ -1,0 +1,194 @@
+{
+  "experiment": {
+    "run_id": "seed_43_on",
+    "seed": 43,
+    "augmentation": "on",
+    "implementation_sha256": "62509227e2d800631d5eaa20b02dffc3495940ad70ea2f91de5818d572c7d15a"
+  },
+  "runtime_params": {
+    "prefix_path": "experiments/09/data",
+    "model_name": "Qwen/Qwen3-8B",
+    "train_file": "train.jsonl",
+    "test_file": "test.jsonl",
+    "output_dir": "models/seed_43_on/checkpoints",
+    "adapter_path": "models/seed_43_on",
+    "run_config_file": "result/seed_43_on.run_config.json",
+    "training_history_file": "result/seed_43_on.training_history.json",
+    "report_file": "result/seed_43_on.evaluation.json",
+    "device": "cuda",
+    "model_revision": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "hyper_params": {
+    "augmentation": {
+      "probability": 0.5,
+      "max_concat": 2,
+      "delimiters": [
+        " ",
+        "  ",
+        " / ",
+        " . ",
+        "\n",
+        " , ",
+        " + "
+      ]
+    },
+    "chat_template": {
+      "enable_thinking": false
+    },
+    "training": {
+      "epochs": 3,
+      "batch_size": 1,
+      "grad_accum": 8,
+      "learning_rate": 0.0002,
+      "max_seq_length": 1280,
+      "seed": 43
+    },
+    "lora": {
+      "r": 16,
+      "lora_alpha": 32,
+      "lora_dropout": 0.05,
+      "task_type": "CAUSAL_LM",
+      "bias": "none",
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ]
+    },
+    "quantization": {
+      "load_in_4bit": true,
+      "bnb_4bit_quant_type": "nf4",
+      "bnb_4bit_use_double_quant": true
+    },
+    "precision": {
+      "compute_dtype": "auto",
+      "frozen_embedding_dtype": "auto"
+    },
+    "model_loading": {
+      "device_map": {
+        "": 0
+      },
+      "attn_implementation": "sdpa",
+      "low_cpu_mem_usage": true,
+      "use_exact_model_name": true,
+      "fix_tokenizer": false,
+      "offload_embedding": false
+    },
+    "tokenizer": {
+      "padding_side": "right"
+    },
+    "kbit_training": {
+      "use_gradient_checkpointing": "unsloth"
+    },
+    "trainer": {
+      "per_device_eval_batch_size": 1,
+      "lr_scheduler_type": "cosine",
+      "warmup_steps": 10,
+      "logging_steps": 10,
+      "save_strategy": "epoch",
+      "eval_strategy": "epoch",
+      "save_total_limit": 2,
+      "optim": "paged_adamw_8bit",
+      "dataloader_num_workers": 0,
+      "dataloader_pin_memory": true,
+      "report_to": "none",
+      "remove_unused_columns": false,
+      "prediction_loss_only": true,
+      "label_names": [
+        "labels"
+      ]
+    },
+    "collator": {
+      "pad_to_multiple_of": 8,
+      "return_tensors": "pt",
+      "padding": true
+    }
+  },
+  "prepared_data": {
+    "train_count": 1568,
+    "test_count": 555
+  },
+  "input_file_hashes": {
+    "experiments/09/data/work_type.json": "53f45973315eebb4661d45f983592f597c24326c07c440e8ffc996ec7c2317cb",
+    "experiments/09/data/cluster.json": "bb4ef7f5dd977a6f3a90fc1829c2a5eeaa1c7302d1a39502a85591be67ed8d2c",
+    "experiments/09/data/split_meta.json": "731f9fc5b235ff45c735c4b84d51a85a475075c554dfcacc55262c3f7248890b",
+    "experiments/09/data/train.jsonl": "5e231bc69e93fe447e395452b3fb7b0236f7544414c965bd0ba9b1f481a68ad1",
+    "experiments/09/data/test.jsonl": "046821a4e50336a7054b1a8242052dc86b5885309b2b55b7853f069a4b2ddd31"
+  },
+  "prepared_file_hashes": {
+    "experiments/09/data/train.jsonl": "5e231bc69e93fe447e395452b3fb7b0236f7544414c965bd0ba9b1f481a68ad1",
+    "experiments/09/data/test.jsonl": "046821a4e50336a7054b1a8242052dc86b5885309b2b55b7853f069a4b2ddd31"
+  },
+  "environment_signature": {
+    "python": "3.10.11",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "transformers": "4.57.6",
+      "peft": "0.18.1",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "unsloth": "2026.10.9",
+      "unsloth_zoo": "2026.10.9",
+      "trl": "0.24.0",
+      "triton": null,
+      "triton-windows": "3.6.0.post26",
+      "torchvision": "0.26.0+cu128",
+      "xformers": "0.0.35"
+    },
+    "device": "NVIDIA GeForce RTX 4070",
+    "cuda": "12.8",
+    "compute_dtype": "torch.bfloat16",
+    "training_backend": "unsloth",
+    "base_model": "Qwen/Qwen3-8B",
+    "base_model_revision": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "status": "training_completed",
+  "artifact_hashes": {
+    "adapter_config.json": "42626a58b121e0fa5782bbd5b1f0a61138b35cd8b8ed53c37eb5536f784c110b",
+    "adapter_model.safetensors": "f55c01ed663e67ae2788cf3bd5408f4601c408f2ebfb5faad31895d90765fb46",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "8529d581564a4eb08b2c1b2d48a560567ef1f124e33e079455c248e4bf7f14b3"
+  },
+  "training_history_sha256": "b03652bd476128979c59ba3f0dd8917cbe2d82f7e973155d6de389b9f1fbef39",
+  "global_step": 588,
+  "epoch": 3.0,
+  "execution": {
+    "python": "3.10.11",
+    "python_executable": "C:\\개인\\001_프로젝트\\SiteBoard\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "transformers": "4.57.6",
+      "peft": "0.18.1",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "unsloth": "2026.10.9",
+      "unsloth_zoo": "2026.10.9",
+      "trl": "0.24.0",
+      "triton": null,
+      "triton-windows": "3.6.0.post26",
+      "torchvision": "0.26.0+cu128",
+      "xformers": "0.0.35"
+    },
+    "training_backend": "unsloth",
+    "trainer": "transformers.Trainer",
+    "gradient_checkpointing": "unsloth",
+    "unsloth_compile_location": "C:\\Users\\angmu\\AppData\\Local\\Temp\\siteboard_unsloth_compiled_cache",
+    "device": "NVIDIA GeForce RTX 4070",
+    "cuda": "12.8",
+    "base_model": "Qwen/Qwen3-8B",
+    "base_model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "compute_dtype": "torch.bfloat16",
+    "input_embedding_dtype": "torch.bfloat16",
+    "output_embedding_dtype": "torch.bfloat16",
+    "gpu_total_bytes": 12878086144,
+    "peak_allocated_bytes": 6913546240,
+    "peak_reserved_bytes": 7214202880
+  },
+  "duration_seconds": 4246.149109599995
+}
