@@ -29,3 +29,9 @@ dataset/raw/source_files/photos/*
 !dataset/raw/source_files/tables/
 dataset/raw/source_files/tables/*
 !dataset/raw/source_files/tables/README.md
+
+experiments/09/data/models/**
+!experiments/09/data/models/**/
+!experiments/09/data/models/README.md
+!experiments/09/data/models/*/README.md
+!experiments/09/data/models/*/adapter_config.json
