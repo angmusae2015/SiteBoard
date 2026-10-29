@@ -17,6 +17,9 @@ experiments/*/models/*
 experiments/07/data/models/*
 !experiments/07/data/models/README.md
 !experiments/07/data/models/adapter_config.json
+experiments/08/data/models/*
+!experiments/08/data/models/README.md
+!experiments/08/data/models/adapter_config.json
 dataset/raw/source_files/*
 !dataset/raw/source_files/README.md
 !dataset/raw/source_files/excel-mapping.md
