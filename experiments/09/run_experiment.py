@@ -5,10 +5,11 @@ import os
 import subprocess
 import sys
 import time
+from argparse import Namespace
 from pathlib import Path
 
 from experiment_common import (
-    EXECUTION_PARAMS, EXPERIMENT_PARAMS, PROJECT_ROOT, SCRIPT_DIR,
+    EXPERIMENT_PARAMS, PROJECT_ROOT, SCRIPT_DIR,
     build_comparison, condition_settings, display_comparison, read_json,
     runtime_path, training_completed, write_json,
 )
@@ -20,21 +21,15 @@ STAGE_SCRIPTS = {
 }
 
 
-def execution_steps(all_conditions):
+def execution_steps(args: Namespace):
     steps = [
         (seed, mode, stage)
-        for seed in EXPERIMENT_PARAMS["seeds"]
-        for mode in EXPERIMENT_PARAMS["augmentation_modes"]
         for stage in ("train", "evaluate")
+        for seed in range(args.start, args.end + 1)
+        for mode in EXPERIMENT_PARAMS["augmentation_modes"]
     ]
-    if all_conditions:
-        return steps
-    start = next(
-        i for i, (seed, mode, stage) in enumerate(steps)
-        if f"seed_{seed}_{mode}" == EXECUTION_PARAMS["start_run"]
-        and stage == EXECUTION_PARAMS["start_stage"]
-    )
-    return steps[start:]
+
+    return steps
 
 
 def run_child(seed, mode, stage):
@@ -66,12 +61,30 @@ def run_child(seed, mode, stage):
         raise subprocess.CalledProcessError(returncode, command)
 
 
+def step_briefing(steps):
+    print(f"실행 예정 스텝: 총 {len(steps)}개", flush=True)
+    for index, (seed, mode, stage) in enumerate(steps, start=1):
+        augmentation = "적용" if mode == "on" else "미적용"
+        stage_name = {"train": "학습", "evaluate": "평가"}[stage]
+        print(
+            f"[{index}/{len(steps)}] 시드: {seed}, "
+            f"증강: {augmentation}, 단계: {stage_name}",
+            flush=True,
+        )
+
+
 def main():
     parser = argparse.ArgumentParser(description="09 시드별 증강 on/off 학습과 평가")
-    parser.add_argument("--all", action="store_true", help="시작 위치 제한 없이 전체 조건 확인")
+    parser.add_argument("--start", help="시작 시드", type=int, required=True)
+    parser.add_argument("--end", help="마지막 시드", type=int, required=True)
     args = parser.parse_args()
+    if args.start > args.end:
+        parser.error("--start는 --end 이하여야 합니다.")
+
     os.chdir(PROJECT_ROOT)
-    steps = execution_steps(args.all)
+    steps = execution_steps(args)
+    step_briefing(steps)
+
     for index, (seed, mode, stage) in enumerate(steps, start=1):
         label = f"[{index}/{len(steps)}] seed_{seed}_{mode} {stage}"
         train_runtime, _, eval_runtime = condition_settings(seed, mode)
@@ -94,13 +107,21 @@ def main():
             return max(1, error.returncode)
         print(f"{label}: 프로세스 종료, 코드 0, {time.perf_counter() - started:.1f}초", flush=True)
 
-    print("전체 6조건 평가 결과 집계", flush=True)
+    seeds = list(range(args.start, args.end + 1))
     destination = Path(EXPERIMENT_PARAMS["summary_file"])
+    if destination.exists():
+        comparison = read_json(destination)
+        if comparison.get("seeds") == seeds:
+            print(f"기존 비교 집계를 보존합니다: {destination}", flush=True)
+            display_comparison(comparison)
+            return 0
+
+    destination = destination.with_stem(f"{destination.stem}_{args.start}_{args.end}")
     if destination.exists():
         print(f"기존 비교 집계를 보존합니다: {destination}", flush=True)
         comparison = read_json(destination)
     else:
-        comparison = build_comparison()
+        comparison = build_comparison(seeds)
         write_json(destination, comparison)
         print(f"비교 집계 저장: {destination}", flush=True)
     display_comparison(comparison)
@@ -111,5 +132,5 @@ if __name__ == "__main__":
     try:
         sys.exit(main())
     except KeyboardInterrupt:
-        print("실행을 중단했습니다. 후속 단계는 실행하지 않습니다.", flush=True)
+        print("실행을 중단했습니다.", flush=True)
         sys.exit(130)

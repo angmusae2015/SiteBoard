@@ -9,7 +9,6 @@ from copy import deepcopy
 from pathlib import Path
 
 EXPERIMENT_PARAMS = {'experiment_dir': 'experiments/09',
- 'seeds': [43, 44, 45],
  'augmentation_modes': {'on': 0.5, 'off': 0.0},
  'summary_file': 'experiments/09/data/result/comparison.json',
  'expected_train_count': 1568,
@@ -179,7 +178,7 @@ def run_identity(seed, mode, script):
 
 def condition_arguments(description):
     parser = argparse.ArgumentParser(description=description)
-    parser.add_argument("--seed", type=int, choices=EXPERIMENT_PARAMS["seeds"], required=True)
+    parser.add_argument("--seed", type=int, required=True)
     parser.add_argument("--augmentation", choices=EXPERIMENT_PARAMS["augmentation_modes"], required=True)
     return parser.parse_args()
 
@@ -231,7 +230,7 @@ def compare_group(on, off, keys):
             "off_only_correct": transitions[False, True], "both_incorrect": transitions[False, False]}
 
 
-def build_comparison():
+def build_comparison(seeds):
     base = Path(TRAIN_RUNTIME_TEMPLATE["prefix_path"])
     samples = read_jsonl(base / "test.jsonl")
     index = {case_key(sample["metadata"]): sample for sample in samples}
@@ -244,7 +243,7 @@ def build_comparison():
     for cluster in sorted({x["metadata"]["cluster_id"] for x in index.values()}):
         groups[f"cluster_{cluster}"] = [key for key, x in index.items() if x["metadata"]["cluster_id"] == cluster]
     paired, summaries, evaluation_hashes = [], [], {}
-    for seed in EXPERIMENT_PARAMS["seeds"]:
+    for seed in seeds:
         pair = {}
         for mode in EXPERIMENT_PARAMS["augmentation_modes"]:
             run_id = f"seed_{seed}_{mode}"
@@ -259,11 +258,11 @@ def build_comparison():
     for name in groups:
         values = [row["groups"][name]["accuracy_delta_pp"] for row in paired]
         aggregate[name] = {"seed_count": len(values), "mean_accuracy_delta_pp": statistics.mean(values),
-                           "sample_std_accuracy_delta_pp": statistics.stdev(values),
+                           "sample_std_accuracy_delta_pp": statistics.stdev(values) if len(values) > 1 else None,
                            "min_accuracy_delta_pp": min(values), "max_accuracy_delta_pp": max(values),
                            "on_wins": sum(v > 0 for v in values), "ties": sum(v == 0 for v in values),
                            "off_wins": sum(v < 0 for v in values)}
-    return {"experiment": "09", "seeds": list(EXPERIMENT_PARAMS["seeds"]),
+    return {"experiment": "09", "seeds": list(seeds),
             "implementation_sha256": implementation_sha256("run_experiment.py", "experiment_common.py"),
             "input_file_hashes": input_hashes(), "evaluation_sha256": evaluation_hashes,
             "confidence_definition": "min of known case value_min_confidence including correct and incorrect cases; JSON syntax excluded; missing remains null",
