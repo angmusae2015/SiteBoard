@@ -1,0 +1,6873 @@
+[
+  {
+    "x": "3번.보덕드입상.2000×600.차열마감=5번",
+    "site": "DG3",
+    "image_id": 50,
+    "y": [
+      {
+        "workType": "보온덕트입상",
+        "spec": "2000*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온입상차열재마감",
+        "spec": "2000*600",
+        "quantity": 2.5
+      }
+    ]
+  },
+  {
+    "x": "11.pvc 100 양면",
+    "site": "SB",
+    "image_id": 306,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "10.무D 50 양면.",
+    "site": "SB",
+    "image_id": 175,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "9번 벽체 보 100 단면",
+    "site": "DG2",
+    "image_id": 127,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "7-벽체 무덕트 700*300 차열 1번 단면",
+    "site": "GJ",
+    "image_id": 446,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "700*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "700*300",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "4-D 벽체 보 50,20 양면",
+    "site": "GJ",
+    "image_id": 508,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "20",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "14번 벽체보50 양면",
+    "site": "GJ",
+    "image_id": 155,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1번 입상125×3.100.80×2.60 pvc100×3",
+    "site": "GJ",
+    "image_id": 531,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "125",
+        "quantity": 3.0
+      },
+      {
+        "workType": "금속관입상",
+        "spec": "100",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관입상",
+        "spec": "80",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관입상",
+        "spec": "65",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "10번 입상보20×4",
+    "site": "GJ",
+    "image_id": 575,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "20",
+        "quantity": 4.0
+      }
+    ]
+  },
+  {
+    "x": ".10번.관50양면",
+    "site": "DG2",
+    "image_id": 151,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "5 보덕트벽체 800×500 차열=2번 단면",
+    "site": "GJ",
+    "image_id": 226,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "800*500",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "8 번 벽체 D 350*4 양면 500*400*4 양면",
+    "site": "GJ",
+    "image_id": 133,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "350",
+        "quantity": 4.0
+      },
+      {
+        "workType": "오픈구",
+        "spec": "500*400",
+        "quantity": 4.0
+      }
+    ]
+  },
+  {
+    "x": "10.실리콘마감 50*2 양면",
+    "site": "SB",
+    "image_id": 471,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "1. 무D 100 양면",
+    "site": "SB",
+    "image_id": 424,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "11.무D 100.pvc 100*3.80*2 양면",
+    "site": "SB",
+    "image_id": 403,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 3.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "75",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "5.보덕트 1200*800.1000*600.1000*400 차열마감2번 단면",
+    "site": "SB",
+    "image_id": 362,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1000*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1000*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1200*800",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1000*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1000*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "9.보덕트 1000*800 차열마감2번 양면",
+    "site": "SB",
+    "image_id": 357,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1000*800",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1000*800",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "34. 무D 100. 양면",
+    "site": "SB",
+    "image_id": 329,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "44. 무D 30. 양면",
+    "site": "SB",
+    "image_id": 339,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "13번 벽체보100×2 단면",
+    "site": "GJ",
+    "image_id": 57,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "12번.벽체.덕트.300*200.300*200오픈.400*300차열2번.단면",
+    "site": "HG",
+    "image_id": 28,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "300*200",
+        "quantity": 1.0
+      },
+      {
+        "workType": "오픈구",
+        "spec": "400*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "300*200",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "7-벽체 보덕트 900*400차열2번 양면",
+    "site": "GJ",
+    "image_id": 42,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "900*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "900*400",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "34.pvc 100*2.125 양면",
+    "site": "SB",
+    "image_id": 283,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 2.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "125",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "13번 벽체 보 2000*800 차열마감2번 단면",
+    "site": "JW",
+    "image_id": 40,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "2000*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "2000*800",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "8 덕트벽체 700×400 차열=1번 단면",
+    "site": "GJ",
+    "image_id": 611,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "700*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "700*400",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체 100 단면",
+    "site": "DG2",
+    "image_id": 179,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "8 덕트벽체 1000×400 차열=1번 단면",
+    "site": "GJ",
+    "image_id": 282,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1000*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1000*400",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "9번 벽체보50×3 양면",
+    "site": "GJ",
+    "image_id": 150,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "3벽체 무덕트 2000*500 차열한벌 보D 100. 단면",
+    "site": "DG1",
+    "image_id": 39,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "2000*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "2000*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "6 보덕트벽체 1100×1000 차열=2번 단면",
+    "site": "GJ",
+    "image_id": 629,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1100*1000",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1100*1000",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2.실리콘마감 100*3.400*400 양면",
+    "site": "SB",
+    "image_id": 579,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 4.0
+      }
+    ]
+  },
+  {
+    "x": "1 보덕트벽체 800×800 차열=2번 단면",
+    "site": "GJ",
+    "image_id": 14,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "800*800",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "14번 입상 50 보150×2.100×2",
+    "site": "GJ",
+    "image_id": 27,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "100",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관입상",
+        "spec": "150",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관입상",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": ".12번.보덕트800×400.800×400.차열2번.무덕2000×600차열.1번.관50×2양면",
+    "site": "DG2",
+    "image_id": 153,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*400",
+        "quantity": 2.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "800*400",
+        "quantity": 4.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "2000*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "2000*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "2번 벽체 보 1800*500 차열마감2번 양면",
+    "site": "DG1",
+    "image_id": 83,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1800*500",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1800*500",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "9.무D 80 양면.",
+    "site": "SB",
+    "image_id": 136,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "80",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "53.pvc 100 양면",
+    "site": "SB",
+    "image_id": 348,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "33.pvc 100 양면",
+    "site": "SB",
+    "image_id": 249,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "8 보덕트벽체 900×400 차열=2번 양면",
+    "site": "GJ",
+    "image_id": 52,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "900*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "900*400",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "2번.무덕트.600×400차열마감=2번양면",
+    "site": "DG2",
+    "image_id": 97,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "600*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "600*400",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "4.무D 50 양면.",
+    "site": "SB",
+    "image_id": 366,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "5번 벽체 보 1400*600 차열마감2번 단면",
+    "site": "DG2",
+    "image_id": 5,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1400*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1400*600",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2번 벽체 보 800*400*2 차열마감2번 무 1200*400 차열마감1번 단면",
+    "site": "DG1",
+    "image_id": 45,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1200*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "800*400",
+        "quantity": 2.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1200*400",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "6번 벽체 무 150 단면",
+    "site": "DG3",
+    "image_id": 102,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "33. 무D 100. 양면",
+    "site": "SB",
+    "image_id": 328,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "3.pvc 100.무D 50*2 양면",
+    "site": "SB",
+    "image_id": 395,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체 보 150 100 50 단면",
+    "site": "DG3",
+    "image_id": 74,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 0.5
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 0.5
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "25.무D 50*7 양면",
+    "site": "SB",
+    "image_id": 458,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 7.0
+      }
+    ]
+  },
+  {
+    "x": "5-벽체 보덕트1100*300 차열 2번 단면",
+    "site": "GJ",
+    "image_id": 672,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1100*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1100*300",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2- FD단파 400*300 양면",
+    "site": "GJ",
+    "image_id": 382,
+    "y": [
+      {
+        "workType": "댐퍼팽창테이프",
+        "spec": "400*300",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "6번.벽체 무 500*300 차열마감1번 100*3 150단면",
+    "site": "GJ",
+    "image_id": 6,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "500*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "500*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.5
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "27번 입상 125×2.100.80.60",
+    "site": "GJ",
+    "image_id": 248,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "125",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관입상",
+        "spec": "100",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관입상",
+        "spec": "80",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관입상",
+        "spec": "65",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "10.pvc 100*2.50 양면",
+    "site": "SB",
+    "image_id": 226,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 2.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "5-보온덕트 1500*800 차열마감2번 단면",
+    "site": "GJ",
+    "image_id": 439,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1500*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1500*800",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "5-입상 15*2 시공후",
+    "site": "GJ",
+    "image_id": 444,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "15",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "16.무D 80 PVC 40 양면.",
+    "site": "SB",
+    "image_id": 202,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "80",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "40",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "15.무D 80 PVC 40 양면.",
+    "site": "SB",
+    "image_id": 201,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "80",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "40",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "28. 실리콘마감 100*4.50*5. 덕트마감1000*800 단면",
+    "site": "SB",
+    "image_id": 529,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 4.5
+      },
+      {
+        "workType": "덕트마감",
+        "spec": "1000*800",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체 보 1500*600 차열마감2번 단면",
+    "site": "JW",
+    "image_id": 31,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1500*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1500*600",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4-벽체 무덕트 1100*300 차열마감1번 단면",
+    "site": "GJ",
+    "image_id": 165,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1100*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1100*300",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "4-벽체 15*2 양면 PVC50 단면 입상 D15*2.PVC 50",
+    "site": "GJ",
+    "image_id": 443,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "15",
+        "quantity": 2.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "50",
+        "quantity": 0.5
+      },
+      {
+        "workType": "금속관입상",
+        "spec": "15",
+        "quantity": 2.0
+      },
+      {
+        "workType": "PVC입상",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2. 실리콘마감 150.100*2.80.50 양면",
+    "site": "SB",
+    "image_id": 533,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 5.0
+      }
+    ]
+  },
+  {
+    "x": "37. 무D 100.150 양면",
+    "site": "SB",
+    "image_id": 332,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "16 번 벽체덕트 보 900*600 단면 차열마감 2 번",
+    "site": "GJ",
+    "image_id": 491,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "900*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "900*600",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "12번.벽체.pvc..100*3.백관.100.양면",
+    "site": "SB",
+    "image_id": 82,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 3.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체보150 양면",
+    "site": "GJ",
+    "image_id": 180,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "13- 무덕트 벽체300*300차열1번 (시공 후)양면",
+    "site": "JW",
+    "image_id": 19,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "300*300",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "300*300",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4- 무덕트 벽체. 2400*900. 차열1번 (후) 단면",
+    "site": "JW",
+    "image_id": 86,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "2400*900",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "2400*900",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "1번 벽체 무 2000*600 차열마감1번 양면",
+    "site": "DG1",
+    "image_id": 44,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "2000*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "2000*600",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "3번 벽체 보 50*2 단면",
+    "site": "DG1",
+    "image_id": 9,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "6번 벽체보150.80 단면",
+    "site": "GJ",
+    "image_id": 182,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 0.5
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "80",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "27. 실리콘마감 100*2.50*5 단면",
+    "site": "SB",
+    "image_id": 528,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 3.5
+      }
+    ]
+  },
+  {
+    "x": "8번 벽체보150×3.80 단면",
+    "site": "GJ",
+    "image_id": 85,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 1.5
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "80",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "5번 번 벽체 보 1600*500 차열마감2번 양면",
+    "site": "DG2",
+    "image_id": 54,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1600*500",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1600*500",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "23. 실리콘마감 100*2.50 단면",
+    "site": "SB",
+    "image_id": 524,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 1.5
+      }
+    ]
+  },
+  {
+    "x": "1번 벽체 무 1600*500 차열마감1번 단면",
+    "site": "DG1",
+    "image_id": 89,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1600*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1600*500",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "19.pvc 100*3 양면",
+    "site": "SB",
+    "image_id": 411,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "5번 벽체 무 50*2 양면",
+    "site": "DG4",
+    "image_id": 37,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "4 번 벽체 D 50*4 양면 시공후",
+    "site": "JW",
+    "image_id": 80,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 4.0
+      }
+    ]
+  },
+  {
+    "x": "15 번 벽체D 100 양면",
+    "site": "SB",
+    "image_id": 112,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "3- 보덕트 벽체. 1600*700. (후) 양면",
+    "site": "JW",
+    "image_id": 85,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1600*700",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1600*700",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "15.pvc 50 양면",
+    "site": "SB",
+    "image_id": 448,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "14.실리콘마감 100*2 단면",
+    "site": "SB",
+    "image_id": 545,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "5-벽체 보덕트1000*300 차열2번 양면",
+    "site": "GJ",
+    "image_id": 109,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1000*300",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1000*300",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "17.무D 50*2.30*2 양면",
+    "site": "SB",
+    "image_id": 450,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "2번.벽체.덕트.1600*600.1400*600차열2번.단면",
+    "site": "HG",
+    "image_id": 8,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1600*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1400*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1600*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1400*600",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "8. 보덕트 1200*700 차열마감2번 양면",
+    "site": "SB",
+    "image_id": 422,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*700",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1200*700",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "5.덕트충진마감 1000*1000 양면",
+    "site": "SB",
+    "image_id": 565,
+    "y": [
+      {
+        "workType": "덕트마감",
+        "spec": "1000*1000",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "6번 벽체 보 1200*400 차열마감2번 단면",
+    "site": "DG1",
+    "image_id": 35,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1200*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "3번 입상 보 100",
+    "site": "DG3",
+    "image_id": 3,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "22.pvc 100*2.무D 100.보D 100 양면",
+    "site": "SB",
+    "image_id": 455,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "16번.벽체.덕트.300*200.300*200.차열2번.양면",
+    "site": "HG",
+    "image_id": 46,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "300*200",
+        "quantity": 2.0
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "300*200",
+        "quantity": 4.0
+      }
+    ]
+  },
+  {
+    "x": "6. pvc 125 양면",
+    "site": "SB",
+    "image_id": 255,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "125",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1번 벽체 보 1200*600 차열마감2번 단면",
+    "site": "DG1",
+    "image_id": 134,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1200*600",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "13번 벽체 무 1400*400 차열마감번 단면",
+    "site": "DG2",
+    "image_id": 12,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1400*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1400*400",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "17번 벽체 보 50*3 양면",
+    "site": "DG2",
+    "image_id": 135,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "1번 벽체 350×4 단면",
+    "site": "GJ",
+    "image_id": 258,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "350",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체 무 400*400 차열마감1번 단면",
+    "site": "DG3",
+    "image_id": 54,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "400*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "400*400",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "15번 벽체 보 50 양면",
+    "site": "DG1",
+    "image_id": 119,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체 pvc125.80 양면",
+    "site": "GJ",
+    "image_id": 145,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "125",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "75",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2번 입상 무 500*300 차열마감4번",
+    "site": "GJ",
+    "image_id": 693,
+    "y": [
+      {
+        "workType": "무보온덕트입상",
+        "spec": "500*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온입상차열재마감",
+        "spec": "500*300",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "5번 벽체 무 800*500 차열마감1번 보 800*500 파열마감2번 단면",
+    "site": "GJ",
+    "image_id": 65,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "800*500",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "800*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "800*500",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "47. 무D 100 양면",
+    "site": "SB",
+    "image_id": 342,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "6번 벽체 보 800*400*2 1400*400 차열마감2번 양면",
+    "site": "DG2",
+    "image_id": 6,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*400",
+        "quantity": 2.0
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1400*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "800*400",
+        "quantity": 4.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1400*400",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "16.pvc 100.무D 100 양면",
+    "site": "SB",
+    "image_id": 265,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "14.pvc 100.125.50 양면",
+    "site": "SB",
+    "image_id": 263,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "125",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "16번 벽체보100 양면",
+    "site": "GJ",
+    "image_id": 60,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2.실리콘마감 무D 100 150 양면.",
+    "site": "SB",
+    "image_id": 476,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "6-벽체 보덕트800*400 차열 2번 단면",
+    "site": "GJ",
+    "image_id": 595,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "800*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1번 벽체보150×2.100×2 단면",
+    "site": "GJ",
+    "image_id": 206,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "12번 벽체 무 50 양면",
+    "site": "DG4",
+    "image_id": 44,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1-보온덕트 1100*500 차열마감2번 양면",
+    "site": "GJ",
+    "image_id": 712,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1100*500",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1100*500",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "1번 벽체 무 1200*800 1200*600 1000*400 차열마감1번 단면",
+    "site": "GJ",
+    "image_id": 428,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1000*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1200*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1200*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1000*400",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "18 보덕트벽체 1200×800 차열=2번 단면",
+    "site": "GJ",
+    "image_id": 194,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1200*800",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "5-보온덕트 1100*400 차열마감2번 단면",
+    "site": "GJ",
+    "image_id": 586,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1100*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1100*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "27.무D 100*12.50*3 단면.",
+    "site": "SB",
+    "image_id": 213,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 6.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.5
+      }
+    ]
+  },
+  {
+    "x": "2.보덕트 1000*800 차열마감2번 단면",
+    "site": "SB",
+    "image_id": 11,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1000*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1000*800",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "9.pvc 100*3 양면",
+    "site": "SB",
+    "image_id": 401,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "2번 벽체  보 700*500 차열마감2번 단면",
+    "site": "DG3",
+    "image_id": 78,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "700*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "700*500",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "8번 벽체250×2 보100 단면",
+    "site": "GJ",
+    "image_id": 367,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "250",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "3-벽체 보덕트 1600*1200 차열2번 단면",
+    "site": "GJ",
+    "image_id": 69,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1600*1200",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1600*1200",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "6번 벽체 보 50 양면",
+    "site": "DG3",
+    "image_id": 47,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "5.무D 50*2 양면",
+    "site": "SB",
+    "image_id": 583,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "4.실리콘마감 무D 100*3 150*2 양면.",
+    "site": "SB",
+    "image_id": 478,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 5.0
+      }
+    ]
+  },
+  {
+    "x": "3번 벽체 보 600*400 차열마감2번 양면",
+    "site": "GJ",
+    "image_id": 138,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "600*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "600*400",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "16번.벽체.pvc..100*4.50..양면",
+    "site": "SB",
+    "image_id": 86,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 4.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "18.보D 50*4.30*2.오픈구 700*400 양면",
+    "site": "SB",
+    "image_id": 451,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 4.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 2.0
+      },
+      {
+        "workType": "오픈구",
+        "spec": "700*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "40.pvc 100*2 양면",
+    "site": "SB",
+    "image_id": 289,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "2번 벽체 보 1400*1200 차열마감2번 양면",
+    "site": "DG2",
+    "image_id": 215,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1400*1200",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1400*1200",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "43.pvc 100 양면",
+    "site": "SB",
+    "image_id": 292,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": ".11번.보덕트800×400.800×400.차열2번.무덕2000×600차열.1번양면",
+    "site": "DG2",
+    "image_id": 152,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*400",
+        "quantity": 2.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "800*400",
+        "quantity": 4.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "2000*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "2000*600",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "26.무D 50*2.pvc 100*2 양면",
+    "site": "SB",
+    "image_id": 459,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 2.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "2번 입상 보 1300*400 차열마감5번",
+    "site": "DG3",
+    "image_id": 11,
+    "y": [
+      {
+        "workType": "보온덕트입상",
+        "spec": "1300*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온입상차열재마감",
+        "spec": "1300*400",
+        "quantity": 2.5
+      }
+    ]
+  },
+  {
+    "x": "12.PVC 80 양면.",
+    "site": "SB",
+    "image_id": 198,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "75",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "8.실리콘마감 150 양면",
+    "site": "SB",
+    "image_id": 568,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "19. 실리콘마감 100*3.50 양면",
+    "site": "SB",
+    "image_id": 520,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 4.0
+      }
+    ]
+  },
+  {
+    "x": "7번 벽체 보 50*2 보 800*400 차열마감2번 단면",
+    "site": "DG1",
+    "image_id": 13,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*400",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "2번 입상 보 150*2",
+    "site": "DG3",
+    "image_id": 43,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "150",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "14- 벽체 보D .200*2pvc 100 단면",
+    "site": "GJ",
+    "image_id": 320,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "200",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "5번 벽체150.100 양면",
+    "site": "GJ",
+    "image_id": 535,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "7번 벽체 무 100 50*4 양면",
+    "site": "DG1",
+    "image_id": 157,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 4.0
+      }
+    ]
+  },
+  {
+    "x": "25.무D 40 PVC 80*2 양면.",
+    "site": "SB",
+    "image_id": 387,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "40",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "75",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "4덕트 1900×600 차열마감1번 단면",
+    "site": "DG2",
+    "image_id": 78,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1900*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1900*600",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "8번 벽체 무 1700*700*2 차열마감1번 양면",
+    "site": "DG1",
+    "image_id": 148,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1700*700",
+        "quantity": 2.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1700*700",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "6 보덕트벽체 2000×900 차열=2번 단면",
+    "site": "GJ",
+    "image_id": 83,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "2000*900",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "2000*900",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "12번. 무덕트=1600×400차열=1번양면",
+    "site": "DG2",
+    "image_id": 107,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1600*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1600*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "24.보D.30. 양면.",
+    "site": "DG1",
+    "image_id": 67,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "15번 입상보30",
+    "site": "GJ",
+    "image_id": 688,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "32",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "3번 벽체보 50×4 단면",
+    "site": "GJ",
+    "image_id": 362,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "3.무D 30 양면.",
+    "site": "SB",
+    "image_id": 168,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1- 보덕트 벽체. 2000*600 차열2벌 (후) 단면",
+    "site": "JW",
+    "image_id": 72,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "2000*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "2000*600",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "15번.벽체.pvc..100*3.양면",
+    "site": "SB",
+    "image_id": 85,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "15번.벽체.덕트.800*400차열2번.오픈.800*200양면",
+    "site": "HG",
+    "image_id": 45,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "800*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "800*400",
+        "quantity": 2.0
+      },
+      {
+        "workType": "오픈구",
+        "spec": "800*200",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "14번 벽체 보 50 단면",
+    "site": "DG3",
+    "image_id": 64,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "31-벽체D65*2 양면",
+    "site": "BS",
+    "image_id": 4,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "65",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "5번 입상 무 100*4 80*4",
+    "site": "GJ",
+    "image_id": 726,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "80",
+        "quantity": 4.0
+      },
+      {
+        "workType": "금속관입상",
+        "spec": "100",
+        "quantity": 4.0
+      }
+    ]
+  },
+  {
+    "x": "6-벽체 보덕트700*500 차열2번 단면",
+    "site": "GJ",
+    "image_id": 110,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "700*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "700*500",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "19.실리콘마감 무D 50 100*3 150 양면.",
+    "site": "SB",
+    "image_id": 493,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 5.0
+      }
+    ]
+  },
+  {
+    "x": "6번.보덕트800×400.차열2번.무덕트1200×400.차열1번.관.100×2양면",
+    "site": "DG2",
+    "image_id": 213,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1200*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1200*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "800*400",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "8-벽체 무 1500*600 충전재 마감 단면",
+    "site": "GJ",
+    "image_id": 112,
+    "y": [
+      {
+        "workType": "덕트마감",
+        "spec": "1500*600",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "5번 벽체 보 700*700 차열마감2번 양면",
+    "site": "GJ",
+    "image_id": 93,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "700*700",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "700*700",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "5-벽체 무덕트 1200*1100.차열1번 양면",
+    "site": "GJ",
+    "image_id": 40,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1200*1100",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1200*1100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4-벽체 무덕트1200*500.500*400 차열1번 단면",
+    "site": "GJ",
+    "image_id": 252,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1200*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "500*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1200*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "500*400",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "9번.벽체 무 700*400 500*400 단면",
+    "site": "GJ",
+    "image_id": 9,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "500*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "700*400",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "6-벽체 보D 50 단면",
+    "site": "GJ",
+    "image_id": 72,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "15.실리콘마감 무D 80*10 양면.",
+    "site": "SB",
+    "image_id": 618,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 10.0
+      }
+    ]
+  },
+  {
+    "x": "6번 벽체 무덕트700*300 양면",
+    "site": "DG2",
+    "image_id": 94,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "700*300",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "700*300",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "20.pvc 100 양면",
+    "site": "SB",
+    "image_id": 315,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체 보 2600*800 차열마감2번 보80 양면",
+    "site": "GJ",
+    "image_id": 342,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "2600*800",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "2600*800",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "80",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1.pvc 100*3 양면",
+    "site": "SB",
+    "image_id": 393,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "2 보덕트벽체 1600×300 차열=2번 양면",
+    "site": "GJ",
+    "image_id": 276,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1600*300",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1600*300",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "8번 입상 무 80*4 100*5 pvc100*2 32*2",
+    "site": "GJ",
+    "image_id": 667,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "80",
+        "quantity": 4.0
+      },
+      {
+        "workType": "금속관입상",
+        "spec": "100",
+        "quantity": 5.0
+      },
+      {
+        "workType": "PVC입상",
+        "spec": "100",
+        "quantity": 2.0
+      },
+      {
+        "workType": "PVC입상",
+        "spec": "30",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "1번 입상 무 65*2",
+    "site": "DG4",
+    "image_id": 33,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "65",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "5-벽체 무 500*200.충전재 마감 양면",
+    "site": "GJ",
+    "image_id": 395,
+    "y": [
+      {
+        "workType": "덕트마감",
+        "spec": "500*200",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "7번 벽체보100 양면",
+    "site": "GJ",
+    "image_id": 148,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체 무 1400*1000 오픈구 1400*200 양면",
+    "site": "DG4",
+    "image_id": 26,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1400*1000",
+        "quantity": 1.0
+      },
+      {
+        "workType": "오픈구",
+        "spec": "1400*200",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1400*1000",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4번.관.100.50.양면",
+    "site": "DG2",
+    "image_id": 211,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "6 덕트벽체 400×300 차열=1번 단면",
+    "site": "GJ",
+    "image_id": 571,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "400*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "400*300",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "8 번 벽체D 100 양면",
+    "site": "SB",
+    "image_id": 105,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "8번 번 벽체 보 2000*800 차열마감2번 양면",
+    "site": "DG2",
+    "image_id": 57,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "2000*800",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "2000*800",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "7번 벽체 보 800*400*2 차열마감2번 양면",
+    "site": "DG1",
+    "image_id": 50,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "800*400",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "2번 벽체30×3 pvc100.80.50 양면",
+    "site": "GJ",
+    "image_id": 456,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 3.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "75",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "21.무D 입상 100*5",
+    "site": "SB",
+    "image_id": 270,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "100",
+        "quantity": 5.0
+      }
+    ]
+  },
+  {
+    "x": "8번 벽체 무 1600*500 차열마감1번 보 100*2 150 양면",
+    "site": "DG2",
+    "image_id": 8,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1600*500",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1600*500",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "3번 벽체 보 800*400 차열마감2번 간면",
+    "site": "GJ",
+    "image_id": 63,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "800*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2번 벽체 보 300*300 차열마감2번 단면",
+    "site": "GJ",
+    "image_id": 661,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "300*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "300*300",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": ".9번.무관50×3양면",
+    "site": "DG2",
+    "image_id": 175,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "6번 벽체 무 900*200*2 차열마감1번 단면",
+    "site": "DG1",
+    "image_id": 110,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "900*200",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "900*200",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1번.벽체.덕트.1600*600.1400*600차열2번.오픈1400*300단면",
+    "site": "HG",
+    "image_id": 7,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1600*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1400*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1600*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1400*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "오픈구",
+        "spec": "1400*300",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "1. 무덕트 600*600.400*400 차열마감2번 단면",
+    "site": "SB",
+    "image_id": 217,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "600*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "400*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "600*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "400*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "3-벽체 보덕트1100*400 차열 2번 단면",
+    "site": "GJ",
+    "image_id": 621,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1100*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1100*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "24.pvc 100*3 양면",
+    "site": "SB",
+    "image_id": 164,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "9번 벽체보80 pvc150.125×2.50 단면",
+    "site": "GJ",
+    "image_id": 53,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "80",
+        "quantity": 0.5
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "150",
+        "quantity": 0.5
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "125",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "50",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "15.보D.30. 양면.",
+    "site": "DG1",
+    "image_id": 58,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4. 보D 50*4 양면",
+    "site": "SB",
+    "image_id": 427,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 4.0
+      }
+    ]
+  },
+  {
+    "x": "6. 보D 100*4 양면",
+    "site": "SB",
+    "image_id": 429,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 4.0
+      }
+    ]
+  },
+  {
+    "x": "11번 입상 무 1200*800 차열마감10번",
+    "site": "DG1",
+    "image_id": 99,
+    "y": [
+      {
+        "workType": "무보온덕트입상",
+        "spec": "1200*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1200*800",
+        "quantity": 5.0
+      }
+    ]
+  },
+  {
+    "x": "7번.벽체.덕트.600*400차열2번.양면",
+    "site": "HG",
+    "image_id": 37,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "600*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "600*400",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "12 번 벽체 pvc 50 양면",
+    "site": "SB",
+    "image_id": 109,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "18번 벽체 보 600*400 차열마감2번 보 50 양면",
+    "site": "DG2",
+    "image_id": 48,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "600*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "600*400",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4.실리콘마감 30 양면",
+    "site": "SB",
+    "image_id": 465,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "5 보덕트벽체 1600×400 차열=2번 양면",
+    "site": "GJ",
+    "image_id": 279,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1600*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1600*400",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체 보 50 양면",
+    "site": "DG3",
+    "image_id": 45,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2번 벽체 무 100 50*4 양면",
+    "site": "DG1",
+    "image_id": 152,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 4.0
+      }
+    ]
+  },
+  {
+    "x": "4.무D 125*2 100*3 양면.",
+    "site": "SB",
+    "image_id": 131,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "125",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "25 무덕트바닥 1100×700 차열=1번",
+    "site": "GJ",
+    "image_id": 555,
+    "y": [
+      {
+        "workType": "무보온덕트입상",
+        "spec": "1100*700",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온입상차열재마감",
+        "spec": "1100*700",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "3.실리콘마감 30 양면",
+    "site": "SB",
+    "image_id": 464,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "28.pvc 100 양면",
+    "site": "SB",
+    "image_id": 277,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": ".18번. 무덕트. 2000×400차열1번. 양면",
+    "site": "DG2",
+    "image_id": 159,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "2000*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "2000*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "7 덕트벽체 1000×400.800×500 차열=1번 단면",
+    "site": "GJ",
+    "image_id": 281,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1000*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "800*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1000*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "800*500",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "5 번 입상D 10*2",
+    "site": "GJ",
+    "image_id": 480,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "15",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "18.실리콘마감 무D 100*5 125*2 단면.",
+    "site": "SB",
+    "image_id": 621,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 3.5
+      }
+    ]
+  },
+  {
+    "x": "4-벽체보무덕트 1100*400 차열2번 단면",
+    "site": "GJ",
+    "image_id": 266,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1100*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1100*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체보150.20 pvc100×2 단면",
+    "site": "GJ",
+    "image_id": 734,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "20",
+        "quantity": 0.5
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 0.5
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "20 번 벽체D 100 양면",
+    "site": "SB",
+    "image_id": 117,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "3번.벽체 보 150 양면",
+    "site": "GJ",
+    "image_id": 380,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "25번 벽체125×2 양면",
+    "site": "GJ",
+    "image_id": 246,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "125",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "1.무D 100 양면.",
+    "site": "SB",
+    "image_id": 363,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2.실리콘마감 50 양면",
+    "site": "SB",
+    "image_id": 562,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2번 벽체 보 50 단면",
+    "site": "DG3",
+    "image_id": 52,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "3 덕트벽체 300×300 차열=1번 단면",
+    "site": "GJ",
+    "image_id": 606,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "300*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "300*300",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "6.보덕트 1200*800 차렬마감2번 양면",
+    "site": "SB",
+    "image_id": 630,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*800",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1200*800",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "1번 실란트마감 500×200 양면",
+    "site": "GJ",
+    "image_id": 514,
+    "y": [
+      {
+        "workType": "덕트마감",
+        "spec": "500*200",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "9번 벽체보50 단면",
+    "site": "GJ",
+    "image_id": 368,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "7번 벽체보100 단면",
+    "site": "GJ",
+    "image_id": 646,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "9-벽체 무 500*200.충전재 마감 양면",
+    "site": "GJ",
+    "image_id": 399,
+    "y": [
+      {
+        "workType": "덕트마감",
+        "spec": "500*200",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "6번 벽체 무 1500*500 차열마감1번 단면",
+    "site": "DG1",
+    "image_id": 139,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1500*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1500*500",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "4번.벽체.덕트.1400*600차열2번.시공후.단면",
+    "site": "HG",
+    "image_id": 20,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1400*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1400*600",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "12번 충전마감600×300 단면",
+    "site": "GJ",
+    "image_id": 709,
+    "y": [
+      {
+        "workType": "덕트마감",
+        "spec": "600*300",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "1 덕트벽체 1200×1100 차열=1번 단면",
+    "site": "GJ",
+    "image_id": 624,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1200*1100",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1200*1100",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "24.pvc 100 양면",
+    "site": "SB",
+    "image_id": 273,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "11.pvc 100*2 양면",
+    "site": "SB",
+    "image_id": 34,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "2번 입상보30",
+    "site": "GJ",
+    "image_id": 605,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "32",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2 번 벽체 D 50*2 양면",
+    "site": "GJ",
+    "image_id": 127,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "15. 보덕트 1000*800 차열마감2번 단면",
+    "site": "SB",
+    "image_id": 516,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1000*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1000*800",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "3번 입상 보 100",
+    "site": "DG4",
+    "image_id": 59,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1번.벽체.무.배관.10양면",
+    "site": "SB",
+    "image_id": 71,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "15",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "3번.벽체 무1200*400차열마감1번 벽체 보 100단면",
+    "site": "GJ",
+    "image_id": 3,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1200*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "6번 임상 보 1200*200 차열마감6번",
+    "site": "DG3",
+    "image_id": 37,
+    "y": [
+      {
+        "workType": "보온덕트입상",
+        "spec": "1200*200",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온입상차열재마감",
+        "spec": "1200*200",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "2-벽체 보덕트 1200*800 차열2번 단면",
+    "site": "GJ",
+    "image_id": 68,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1200*800",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "6번 입상 무 2000*600*2 차열마감5번",
+    "site": "DG2",
+    "image_id": 166,
+    "y": [
+      {
+        "workType": "무보온덕트입상",
+        "spec": "2000*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "2000*600",
+        "quantity": 5.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체 보 50 양면",
+    "site": "DG2",
+    "image_id": 34,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "15.무D 50*3 양면",
+    "site": "SB",
+    "image_id": 407,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "7번 벽체 무 50 양면",
+    "site": "DG4",
+    "image_id": 39,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "17번.보덕트=1200×400차열=2.번양면",
+    "site": "DG2",
+    "image_id": 112,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1200*400",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체보50 양면",
+    "site": "GJ",
+    "image_id": 677,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "17 보드트벽체 1200×800 차열=2번 단면",
+    "site": "GJ",
+    "image_id": 193,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1200*800",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "7번 벽체 보 100 단면",
+    "site": "DG3",
+    "image_id": 83,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "9. 보덕트 1600*800 차열마김2번 양면",
+    "site": "SB",
+    "image_id": 598,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1600*800",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1600*800",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "17번 벽체 보 1800*600 차열마가2번 단면",
+    "site": "JW",
+    "image_id": 44,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1800*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1800*600",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "14번. 보덕트=1200×400차열=2.변양면관.50.×4양면",
+    "site": "DG2",
+    "image_id": 109,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1200*400",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 4.0
+      }
+    ]
+  },
+  {
+    "x": "1 보덕트벽체 800×500 차열=2번 단면",
+    "site": "GJ",
+    "image_id": 654,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "800*500",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "6번 벽체 보 100 오픈구 300*300 단면",
+    "site": "GJ",
+    "image_id": 94,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 0.5
+      },
+      {
+        "workType": "오픈구",
+        "spec": "300*300",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "5번 벽체 보 500*500 차열마감2번 보 100*2 단면",
+    "site": "DG1",
+    "image_id": 86,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "500*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "500*500",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "8번 입상 보 150*4 무 50",
+    "site": "DG2",
+    "image_id": 229,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "150",
+        "quantity": 4.0
+      },
+      {
+        "workType": "금속관입상",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체 무덕트1000*400 단면",
+    "site": "DG2",
+    "image_id": 92,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1000*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1000*400",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "3번 벽체보100 단면",
+    "site": "GJ",
+    "image_id": 733,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "11번 벽체보 100 단면",
+    "site": "GJ",
+    "image_id": 232,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "5-벽체D65 양면",
+    "site": "BS",
+    "image_id": 30,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "65",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "8번 벽체보30×6 단면",
+    "site": "GJ",
+    "image_id": 738,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "8.무덕트 400*300 차열마감2번 양면",
+    "site": "SB",
+    "image_id": 17,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "400*300",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "400*300",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "1.실리콘마감 무D 30 125*4양면.",
+    "site": "SB",
+    "image_id": 604,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 5.0
+      }
+    ]
+  },
+  {
+    "x": "5. 무덕트 400*400 차열마검2번 양면",
+    "site": "SB",
+    "image_id": 501,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "400*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "400*400",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "6번 벽체 보 150*4 양면",
+    "site": "DG2",
+    "image_id": 36,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 4.0
+      }
+    ]
+  },
+  {
+    "x": "7-무덕트 500*300 차열마감1번 단면",
+    "site": "GJ",
+    "image_id": 511,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "500*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "500*300",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "12. 무D 30*2.50*2 양면",
+    "site": "SB",
+    "image_id": 56,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "1번 벽체 무 900*300 차열마감1번 양면",
+    "site": "DG3",
+    "image_id": 32,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "900*300",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "900*300",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "24. 실리콘마감 100*2.50 단면",
+    "site": "SB",
+    "image_id": 525,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 1.5
+      }
+    ]
+  },
+  {
+    "x": "9번 벽체 보 150 100 양면",
+    "site": "DG1",
+    "image_id": 149,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2번 벽체보150×2.100×2 양면",
+    "site": "GJ",
+    "image_id": 207,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "2- D 벽체 에어컨 50*5 (오픈 400*300) 양면",
+    "site": "JW",
+    "image_id": 63,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 5.0
+      },
+      {
+        "workType": "오픈구",
+        "spec": "400*300",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "10번 입상보30",
+    "site": "GJ",
+    "image_id": 683,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "32",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "3.보덕트 1400*1200.1100*800 차열마감2번 양면",
+    "site": "SB",
+    "image_id": 12,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1400*1200",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1100*800",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1400*1200",
+        "quantity": 2.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1100*800",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "2 번 벽체덕트 보 1000*500 단면 차열마감 2 번",
+    "site": "GJ",
+    "image_id": 526,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1000*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1000*500",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "10번 벽체보50×3 단면",
+    "site": "GJ",
+    "image_id": 740,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.5
+      }
+    ]
+  },
+  {
+    "x": "6번 벽체 보 20*2 100 50 양면",
+    "site": "DG1",
+    "image_id": 6,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "20",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "32-벽체D65*2 양면",
+    "site": "BS",
+    "image_id": 3,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "65",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "7번.벽체.덕트.700*300차열2번.단면",
+    "site": "HG",
+    "image_id": 23,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "700*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "700*300",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "18번 벽체 보 150*3 50 양면",
+    "site": "DG2",
+    "image_id": 136,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 3.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체 보 100 단면",
+    "site": "DG4",
+    "image_id": 60,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "10.무D 100 양면.",
+    "site": "SB",
+    "image_id": 372,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "17번 벽체보100 양면",
+    "site": "GJ",
+    "image_id": 158,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1번 입상 보 1300*800 차열마감6번 무 1300*800 차열마감5번",
+    "site": "DG1",
+    "image_id": 1,
+    "y": [
+      {
+        "workType": "보온덕트입상",
+        "spec": "1300*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온덕트입상",
+        "spec": "1300*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1300*800",
+        "quantity": 5.5
+      }
+    ]
+  },
+  {
+    "x": "1번 벽체 보 1400*1200 차열마감2번 양면",
+    "site": "DG2",
+    "image_id": 214,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1400*1200",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1400*1200",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "6- 보덕트 벽체.1600*800차열2벌 (후) 단면",
+    "site": "JW",
+    "image_id": 61,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1600*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1600*800",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2-벽체 보덕트1100*400 차열 2번 단면",
+    "site": "GJ",
+    "image_id": 620,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1100*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1100*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2-보온덕트 1600*1400 차열마감2번 단면",
+    "site": "GJ",
+    "image_id": 634,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1600*1400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1600*1400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2.실리콘마감 무D 30 125*4양면.",
+    "site": "SB",
+    "image_id": 605,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 5.0
+      }
+    ]
+  },
+  {
+    "x": "1 보덕트벽체 1400×600 차열=2번 단면",
+    "site": "GJ",
+    "image_id": 731,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1400*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1400*600",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "5덕트 700×300 차열마감1번 양면",
+    "site": "DG2",
+    "image_id": 87,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "700*300",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "700*300",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2번 벽체 보 1200*500 차열마감2번 단면",
+    "site": "DG1",
+    "image_id": 122,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1200*500",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "13.무D 100*2 양면.",
+    "site": "SB",
+    "image_id": 178,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "24. 무D 100 양면",
+    "site": "SB",
+    "image_id": 240,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "7-벽체D65*2 양면",
+    "site": "BS",
+    "image_id": 28,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "65",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "20.무D 50*2 100 양면.",
+    "site": "SB",
+    "image_id": 382,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4. 보덕트 1800*1000.1200*800 차열마감2번 단면",
+    "site": "SB",
+    "image_id": 418,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1800*1000",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1800*1000",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1200*800",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "8. 실리콘마감 50 양면",
+    "site": "SB",
+    "image_id": 509,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "3 덕트벽체 300×300 차열=1번 양면",
+    "site": "GJ",
+    "image_id": 516,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "300*300",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "300*300",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "3-벽체보덕트 1800*400.1800*400 차열2번 벽체무덕트1200*300 차열1번 단면",
+    "site": "GJ",
+    "image_id": 289,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1800*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1800*400",
+        "quantity": 2.0
+      },
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1200*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1200*300",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "7 덕트벽체800×500 차열=1번 양면",
+    "site": "GJ",
+    "image_id": 704,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "800*500",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "800*500",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "11.덕트마감 1200*1000 단면",
+    "site": "SB",
+    "image_id": 542,
+    "y": [
+      {
+        "workType": "덕트마감",
+        "spec": "1200*1000",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "8-벽체 보D 30.20*3 pvc 80.50 단면 오픈구 200*200.300*200단면",
+    "site": "GJ",
+    "image_id": 74,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 0.5
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "20",
+        "quantity": 1.5
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "75",
+        "quantity": 0.5
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "50",
+        "quantity": 0.5
+      },
+      {
+        "workType": "오픈구",
+        "spec": "200*200",
+        "quantity": 0.5
+      },
+      {
+        "workType": "오픈구",
+        "spec": "300*200",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "18. pvc 100*6 양면",
+    "site": "SB",
+    "image_id": 62,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 6.0
+      }
+    ]
+  },
+  {
+    "x": "4- 보덕트 벽체.700*500차열2벌 (후) 단면",
+    "site": "JW",
+    "image_id": 49,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "700*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "700*500",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "6번 벽체 무 600*400 차열마감1번 보 50*3 양면",
+    "site": "DG1",
+    "image_id": 94,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "600*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "600*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "1. 무D 50*7 양면",
+    "site": "SB",
+    "image_id": 415,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 7.0
+      }
+    ]
+  },
+  {
+    "x": "8-벽체 무 500*200.충전재 마감 양면",
+    "site": "GJ",
+    "image_id": 398,
+    "y": [
+      {
+        "workType": "덕트마감",
+        "spec": "500*200",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1-벽체 보덕트 800*300 차열2번 양면",
+    "site": "GJ",
+    "image_id": 470,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*300",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "800*300",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "4.보덕트 1200*800 차열마감2번 양면",
+    "site": "SB",
+    "image_id": 392,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*800",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1200*800",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "14. 무D 30 양면",
+    "site": "SB",
+    "image_id": 37,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1 보드트벽체 2800×900 차열=2번 단면",
+    "site": "GJ",
+    "image_id": 640,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "2800*900",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "2800*900",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "18.실리콘마감 125.100.80.50 양면",
+    "site": "SB",
+    "image_id": 549,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 4.0
+      }
+    ]
+  },
+  {
+    "x": "15.pvc 100*3 무D 50*6.30*3 양면",
+    "site": "SB",
+    "image_id": 38,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 3.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 6.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "15.실리콘마감 50 양면",
+    "site": "SB",
+    "image_id": 546,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "19 보덕트 벽체 1200×800 차열=2번 단면",
+    "site": "GJ",
+    "image_id": 195,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1200*800",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4-입상 D 300*2",
+    "site": "GJ",
+    "image_id": 748,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "300",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "15.pvc 100*2.125 양면",
+    "site": "SB",
+    "image_id": 264,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 2.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "125",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "6.pvc 100*2 양면",
+    "site": "SB",
+    "image_id": 398,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "38.pvc 50 양면",
+    "site": "SB",
+    "image_id": 333,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "9.무D 100 양면.",
+    "site": "SB",
+    "image_id": 371,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1-벽체 보덕트 1200*1000 차열2번 단면",
+    "site": "GJ",
+    "image_id": 67,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*1000",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1200*1000",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "5 보덕트벽체 800×500 차열=2번 단면",
+    "site": "GJ",
+    "image_id": 658,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "800*500",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "48. 무D 100 양면",
+    "site": "SB",
+    "image_id": 343,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "28-벽체D65*2 양면",
+    "site": "BS",
+    "image_id": 7,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "65",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "5번 벽체 보 800*200 차열마감2번 양면",
+    "site": "DG3",
+    "image_id": 55,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*200",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "800*200",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "21.보D.30. 양면.",
+    "site": "DG1",
+    "image_id": 64,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "3번 입상80×3.50×2",
+    "site": "GJ",
+    "image_id": 533,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "80",
+        "quantity": 3.0
+      },
+      {
+        "workType": "금속관입상",
+        "spec": "50",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "6- D 보덕트 2200*600 800*600(재시공 후) 단면",
+    "site": "DG4",
+    "image_id": 56,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "2200*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*600",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "8.실리콘마감 무D 30 125*2 양면.",
+    "site": "SB",
+    "image_id": 611,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "4번 입상30×2",
+    "site": "GJ",
+    "image_id": 409,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "32",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "16 보덕트 벽체 2000×900 차열=2번 단면",
+    "site": "GJ",
+    "image_id": 192,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "2000*900",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "2000*900",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체 무 50 양면",
+    "site": "DG4",
+    "image_id": 12,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "17번 벽체 보 65 양면",
+    "site": "DG3",
+    "image_id": 67,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "65",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체보 150×2.30 pvc80 오픈400×300*2 양면",
+    "site": "GJ",
+    "image_id": 225,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "75",
+        "quantity": 1.0
+      },
+      {
+        "workType": "오픈구",
+        "spec": "400*300",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체 보 1600*600 차열마감2번 양면",
+    "site": "DG1",
+    "image_id": 85,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1600*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1600*600",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "12번 벽체pvc50 단면",
+    "site": "GJ",
+    "image_id": 685,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "50",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "1-보온덕트 1100*500 차열마감2번 단면",
+    "site": "GJ",
+    "image_id": 529,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1100*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1100*500",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "6번 벽체보250×2 단면",
+    "site": "GJ",
+    "image_id": 703,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "250",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "5. 무D 20 양면",
+    "site": "SB",
+    "image_id": 49,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "20",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "6번 벽체 보 150*2 단면",
+    "site": "DG3",
+    "image_id": 56,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "5번 벽체보 150×2.50×2.20 양면",
+    "site": "GJ",
+    "image_id": 210,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "20",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "7번 벽체 보 1500*500 차열마감2번 보 150 양면",
+    "site": "DG2",
+    "image_id": 7,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1500*500",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1500*500",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "7번 벽체 보 150 양면",
+    "site": "DG3",
+    "image_id": 7,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "3번 벽체 보 150 단면",
+    "site": "DG1",
+    "image_id": 136,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "17.무D100 양면",
+    "site": "SB",
+    "image_id": 61,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "5번 입상 보 150*3 무 50 단면",
+    "site": "DG3",
+    "image_id": 101,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "50",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관입상",
+        "spec": "150",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "14.pvc 100 양면",
+    "site": "SB",
+    "image_id": 58,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4-벽체 보덕E900*400 차열 2번 단면",
+    "site": "GJ",
+    "image_id": 671,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "900*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "900*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "3번.벽체.pvc.50양면",
+    "site": "SB",
+    "image_id": 73,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "5번.벽체 보 100*3단면",
+    "site": "GJ",
+    "image_id": 5,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.5
+      }
+    ]
+  },
+  {
+    "x": "4. 무D 50*6 양면",
+    "site": "SB",
+    "image_id": 48,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 6.0
+      }
+    ]
+  },
+  {
+    "x": "9. 무덕트 800*400 차열마감2번 양면",
+    "site": "SB",
+    "image_id": 432,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "800*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "800*400",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "10번 벽체350×4 단면",
+    "site": "GJ",
+    "image_id": 540,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "350",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "19. pvc 100.125.150 양면",
+    "site": "SB",
+    "image_id": 63,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "125",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "150",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "3번 입상 무 20",
+    "site": "DG4",
+    "image_id": 11,
+    "y": [
+      {
+        "workType": "금속관입상",
+        "spec": "20",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1번 벽체 보 1700*800 600*500 차열마감2번 무 1900*600 차열마감1번 단면",
+    "site": "GJ",
+    "image_id": 123,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1700*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "600*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1700*800",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "600*500",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1900*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1900*600",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "13. 무D 100*5 양면",
+    "site": "SB",
+    "image_id": 308,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 5.0
+      }
+    ]
+  },
+  {
+    "x": "11 번 벽체D 100 80 양면",
+    "site": "SB",
+    "image_id": 108,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "80",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "6번무덕트.1600×400차열마감=1번양면",
+    "site": "DG2",
+    "image_id": 101,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1600*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1600*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1번. 보덕트=2000×600차열=2.번양면",
+    "site": "DG2",
+    "image_id": 142,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "2000*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "2000*600",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "4 번 벽체덕트 보 400*400*2 단면차열마감2번시공후",
+    "site": "JW",
+    "image_id": 91,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "400*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "400*400",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "5번.벽체 보 50*3 양면",
+    "site": "GJ",
+    "image_id": 356,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "9-벽체보덕트 600*300 차열 2번 양면",
+    "site": "GJ",
+    "image_id": 204,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "600*300",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "600*300",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "8번 벽체 보 100 단면",
+    "site": "DG1",
+    "image_id": 112,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "20.보D.30. 양면.",
+    "site": "DG1",
+    "image_id": 63,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "18.pvc 100*2. 양면",
+    "site": "SB",
+    "image_id": 158,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체보80 단면",
+    "site": "GJ",
+    "image_id": 627,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "80",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "13번 벽체보100 양면",
+    "site": "GJ",
+    "image_id": 154,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "30-벽체D65*2 양면",
+    "site": "BS",
+    "image_id": 5,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "65",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "4-벽체 보덕트 600*400 차열2번 양면",
+    "site": "GJ",
+    "image_id": 108,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "600*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "600*400",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "5번.벽체.덕트.700*300차열2번.양면",
+    "site": "HG",
+    "image_id": 21,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "700*300",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "700*300",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "1번 벽체 보 700*400 차열마감2번 양면",
+    "site": "DG2",
+    "image_id": 203,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "700*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "700*400",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "21 번 벽체D 100 양면",
+    "site": "SB",
+    "image_id": 118,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1.보덕트 700*400 치열마감2번 양면",
+    "site": "DG2",
+    "image_id": 60,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "700*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "700*400",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "10-벽체 무덕트 1100*300, 차열마감1번 단면",
+    "site": "GJ",
+    "image_id": 171,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1100*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1100*300",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "1-벽체 보덕트 700*400 차열 2번 단면",
+    "site": "GJ",
+    "image_id": 97,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "700*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "700*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1.보덕트 1200*800.1000*600 차열마감2번 양면",
+    "site": "SB",
+    "image_id": 1,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*800",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1000*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1200*800",
+        "quantity": 2.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1000*600",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "3번 벽체 pvc125.80 양면",
+    "site": "GJ",
+    "image_id": 144,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "125",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "75",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4.무D 50*2 양면",
+    "site": "SB",
+    "image_id": 13,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체 보 800*400 차열마감2번 보 50 단면",
+    "site": "DG3",
+    "image_id": 35,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "800*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "800*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "27 보덕트벽체1000×400.500×400.400×400 차열=2번 단면",
+    "site": "GJ",
+    "image_id": 557,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1000*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "500*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온덕트벽체",
+        "spec": "400*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1000*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "500*400",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "400*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "6번 번 벽체 무 2100*600 차열마감1번 양면",
+    "site": "DG2",
+    "image_id": 55,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "2100*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "2100*600",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "8번 벽체보30 양면",
+    "site": "GJ",
+    "image_id": 681,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "6번 실란트마감 500×200*3 단면",
+    "site": "GJ",
+    "image_id": 411,
+    "y": [
+      {
+        "workType": "덕트마감",
+        "spec": "500*200",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "14번 입상 보 2000*500 차열마감6번 무 1900*300 차열마감5번",
+    "site": "DG3",
+    "image_id": 31,
+    "y": [
+      {
+        "workType": "보온덕트입상",
+        "spec": "2000*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온입상차열재마감",
+        "spec": "2000*500",
+        "quantity": 3.0
+      },
+      {
+        "workType": "무보온덕트입상",
+        "spec": "1900*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온입상차열재마감",
+        "spec": "1900*300",
+        "quantity": 2.5
+      }
+    ]
+  },
+  {
+    "x": "8덕트벽체 1400×500 차열=1번 단면",
+    "site": "GJ",
+    "image_id": 229,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1400*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1400*500",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "5- 보덕트 벽체.1500*700차열2벌 (후) 단면",
+    "site": "JW",
+    "image_id": 54,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1500*700",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1500*700",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "7 보덕트벽체 1400×800 차열=2번 단면",
+    "site": "GJ",
+    "image_id": 630,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1400*800",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1400*800",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "5번.벽체.pvc..100*4양면",
+    "site": "SB",
+    "image_id": 75,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 4.0
+      }
+    ]
+  },
+  {
+    "x": "6번 벽체보150 양면",
+    "site": "GJ",
+    "image_id": 147,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1.무D 100 양면.",
+    "site": "SB",
+    "image_id": 166,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "26.무D 30 양면.",
+    "site": "SB",
+    "image_id": 388,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "8번.벽체.덕트.700*300차열2번.단면",
+    "site": "HG",
+    "image_id": 14,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "700*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "700*300",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "4.보덕트 1000*1200 차렬마감2번 단면",
+    "site": "SB",
+    "image_id": 634,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1000*1200",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1000*1200",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2- 무덕트 벽체.1200*500차열1벌 (후) 양면",
+    "site": "JW",
+    "image_id": 47,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1200*500",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1200*500",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "6번 벽체 보 150*3 50 단면",
+    "site": "DG2",
+    "image_id": 227,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 0.5
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 1.5
+      }
+    ]
+  },
+  {
+    "x": "9번 벽체150 pvc80×2 단면",
+    "site": "GJ",
+    "image_id": 22,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 0.5
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "75",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "8번 벽체 보30 양면",
+    "site": "GJ",
+    "image_id": 521,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "26.pvc 100*3 양면",
+    "site": "SB",
+    "image_id": 321,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "17.실리콘마감 100 양면",
+    "site": "SB",
+    "image_id": 577,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2번.벽체.덕트.700*300.1400*600차열2번.단면",
+    "site": "HG",
+    "image_id": 18,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "700*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "700*300",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1400*600",
+        "quantity": 0.5
+      },
+      {
+        "workType": "무보온벽체차열재마감",
+        "spec": "1400*600",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1-벽체 보덕트700*00 차열2번 양면",
+    "site": "GJ",
+    "image_id": 322,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "700*500",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "700*500",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "26.pvc 100*2 양면",
+    "site": "SB",
+    "image_id": 275,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "9번 천장 무 1800*800*2 차열마감2번",
+    "site": "DG3",
+    "image_id": 9,
+    "y": [
+      {
+        "workType": "무보온덕트입상",
+        "spec": "1800*800",
+        "quantity": 1.0
+      },
+      {
+        "workType": "무보온입상차열재마감",
+        "spec": "1800*800",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "23.무D 100 양면.",
+    "site": "SB",
+    "image_id": 385,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1번 벽체 무 100*2 50 오프구600*200 양면",
+    "site": "DG2",
+    "image_id": 95,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      },
+      {
+        "workType": "오픈구",
+        "spec": "600*200",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "18.pvc 100 양면",
+    "site": "SB",
+    "image_id": 410,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "8. 보D 30*6.50*3 양면",
+    "site": "SB",
+    "image_id": 431,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "32",
+        "quantity": 6.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "7-벽체 보덕트 1500*400 차열2번 단면",
+    "site": "GJ",
+    "image_id": 34,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1500*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1500*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1- 보덕트 벽체.1500*1000차열2벌 (후) 양면",
+    "site": "JW",
+    "image_id": 70,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1500*1000",
+        "quantity": 1.0
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1500*1000",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "2.실리콘마감 50*2 양면",
+    "site": "SB",
+    "image_id": 463,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "6.무D 100 pvc 100 양면.",
+    "site": "SB",
+    "image_id": 133,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "100",
+        "quantity": 1.0
+      },
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": ".5번.보덕트.2000×600차열2번.관50×3양면",
+    "site": "DG2",
+    "image_id": 171,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "2000*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "2000*600",
+        "quantity": 2.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 3.0
+      }
+    ]
+  },
+  {
+    "x": "1-벽체 보덕트1100*300 차열 2번 단면",
+    "site": "GJ",
+    "image_id": 745,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1100*300",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1100*300",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "1번 벽체pvc50 단면",
+    "site": "GJ",
+    "image_id": 604,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "50",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "1번 벽체 보 50 양면",
+    "site": "DG4",
+    "image_id": 9,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "7번 벽체 보 1600*500 차열마감2번 단면",
+    "site": "DG1",
+    "image_id": 95,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1600*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1600*500",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "2번 벽체 보 1200*500 차열마감번2번 단면",
+    "site": "DG2",
+    "image_id": 14,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1200*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1200*500",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "9 보덕트벽체 700×400 차열=2번 단면",
+    "site": "GJ",
+    "image_id": 706,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "700*400",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "700*400",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "11번 벽체 무 1200*500 차열마감1번 단면",
+    "site": "DG2",
+    "image_id": 73,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "1200*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "1200*500",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "5번 벽체 무 800*500 차열마가1번 단면",
+    "site": "DG1",
+    "image_id": 93,
+    "y": [
+      {
+        "workType": "무보온덕트벽체",
+        "spec": "800*500",
+        "quantity": 0.5
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "800*500",
+        "quantity": 0.5
+      }
+    ]
+  },
+  {
+    "x": "1번 벽체 보 2000*600 차열마감2번 양면",
+    "site": "DG1",
+    "image_id": 100,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "2000*600",
+        "quantity": 1.0
+      },
+      {
+        "workType": "차열재마감",
+        "spec": "2000*600",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "4번 벽체350×2 보 500×2 오픈1400×600.600×600.600×600 단면",
+    "site": "GJ",
+    "image_id": 17,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "350",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "500",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "12.실리콘마감 무D 30 125*4 양면.",
+    "site": "SB",
+    "image_id": 615,
+    "y": [
+      {
+        "workType": "실란트마감벽체",
+        "spec": "",
+        "quantity": 5.0
+      }
+    ]
+  },
+  {
+    "x": "2 보덕트벽체 1500×1000 차열=2번 단면",
+    "site": "GJ",
+    "image_id": 331,
+    "y": [
+      {
+        "workType": "보온덕트벽체",
+        "spec": "1500*1000",
+        "quantity": 0.5
+      },
+      {
+        "workType": "보온벽체차열재마감",
+        "spec": "1500*1000",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "12번 벽체 보 150*2 50 양면",
+    "site": "DG1",
+    "image_id": 132,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "150",
+        "quantity": 2.0
+      }
+    ]
+  },
+  {
+    "x": "1.pvc 100.무D 50 양면",
+    "site": "SB",
+    "image_id": 141,
+    "y": [
+      {
+        "workType": "PVC벽체",
+        "spec": "100",
+        "quantity": 1.0
+      },
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  },
+  {
+    "x": "8번.관50양면",
+    "site": "DG2",
+    "image_id": 103,
+    "y": [
+      {
+        "workType": "금속관벽체",
+        "spec": "50",
+        "quantity": 1.0
+      }
+    ]
+  }
+]
