@@ -11,6 +11,8 @@ requires-python = ">=3.10"
 dynamic = ["dependencies"]
 
 [project.optional-dependencies]
+gemini = ["google-genai>=1.55,<3"]
+gpt = ["openai>=2,<3"]
 unsloth = [
     "unsloth==2026.10.9",
     "unsloth_zoo==2026.10.9",

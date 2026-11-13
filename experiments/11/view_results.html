@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SiteBoard | 실험 11 케이스 검토</title>
+<style>
+  :root{color-scheme:light;--ink:#15282c;--muted:#52676c;--line:#d7e1df;--paper:#fff;--accent:#126451;--wash:#edf5f2}
+  *{box-sizing:border-box}body{margin:0;background:#f3f6f5;color:var(--ink);font:15px/1.6 "Inter","Malgun Gothic",system-ui,sans-serif}
+  header{background:#143530;color:#fff;padding:28px max(24px,calc((100vw - 1450px)/2))}
+  header p{margin:0;color:#c1dad2;font-size:.85rem;letter-spacing:.04em}h1{font-size:clamp(1.5rem,4vw,2.1rem);margin:3px 0 0}
+  main{max-width:1498px;margin:auto;padding:20px 24px 40px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:12px}
+  .filters{display:flex;align-items:end;gap:12px;flex-wrap:wrap;padding:14px 16px}.filters label{display:grid;gap:4px;font-size:.85rem;color:var(--muted)}
+  input,select,button{font:inherit;color:var(--ink);border:1px solid #adbfbb;border-radius:7px;background:#fff;padding:7px 10px}
+  button,select{cursor:pointer}button:disabled{cursor:default}input:focus-visible,select:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .file{margin-left:auto}.status{margin:10px 0;color:var(--muted);min-height:1.6em}.status.error{color:#a13025}
+  .layout{display:grid;grid-template-columns:minmax(235px, .8fr) minmax(0, 2.5fr);gap:16px}
+  aside{padding:14px;min-width:0}h2,h3{margin:0;font-size:1rem}.search{display:grid;gap:7px;margin:10px 0}.search input{width:100%}
+  .list{display:grid;align-content:start;gap:5px;max-height:66vh;overflow:auto;padding:2px}
+  .case{text-align:left;padding:8px 10px;min-width:0;border-color:transparent;background:#f5f8f7}
+  .case[aria-current=true]{background:var(--wash);border-color:var(--accent)}.case strong{font-size:.88rem}
+  .case small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted)}
+  .tag{border-radius:5px;padding:1px 7px;font-size:.8rem;font-weight:650;background:#eef1f1;color:#465a60}
+  .ok{background:#dff3e8;color:#17543e}.bad{background:#fce8e2;color:#8a3527}
+  .case .tag{float:right}article{padding:18px;min-width:0}.casehead{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+  .work{margin:7px 0 15px;white-space:pre-wrap;overflow-wrap:anywhere}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .comparison section{border:1px solid var(--line);border-radius:8px;min-width:0;padding:12px}
+  .items{display:grid;gap:5px;margin-top:8px}.item{padding:6px 8px;border-radius:6px;background:#f1f6f4;overflow-wrap:anywhere}
+  .item.bad{background:#fce8e2}.item small,.muted{color:var(--muted)}.item .tag{margin-left:5px}
+  details{margin-top:12px;border:1px solid var(--line);border-radius:8px;padding:9px 12px}summary{cursor:pointer;font-weight:650}
+  .examples{display:grid;gap:8px;max-height:420px;overflow:auto;margin:10px 0 2px;padding:2px 6px 2px 30px}
+  .examples li{padding:8px 10px;border:1px solid var(--line);border-radius:7px}
+  .examples li::marker{color:var(--accent);font-weight:650}
+  .example-work{margin:0;white-space:pre-wrap;overflow-wrap:anywhere}
+  .examples .items{margin-top:5px}.examples .item{font-size:.88rem}
+  pre{white-space:pre-wrap;overflow-wrap:anywhere;margin:8px 0 2px;padding:10px;background:#f3f6f5;border-radius:6px;max-height:420px;overflow:auto;font:13px/1.6 "IBM Plex Mono",Consolas,monospace}
+  @media(max-width:740px){main{padding:12px}.layout,.comparison{grid-template-columns:1fr}.list{max-height:30vh}.file{margin-left:0}}
+</style>
+</head>
+<body>
+<header><p>SiteBoard / 실험 11</p><h1>케이스별 평가 결과</h1></header>
+<main>
+  <div class="filters panel">
+    <label>시드<select id="seed"></select></label>
+    <label>N<select id="n"></select></label>
+    <label>유사도<select id="method"></select></label>
+    <label>Top_K<select id="top"></select></label>
+    <label class="file">실행 폴더 열기<input id="folder" type="file" webkitdirectory multiple></label>
+  </div>
+  <p id="status" class="status" role="status"></p>
+  <div class="layout">
+    <aside class="panel" aria-label="케이스 목록">
+      <h2>케이스 <span id="count" class="muted"></span></h2>
+      <div class="search">
+        <input id="search" type="search" aria-label="케이스 검색" placeholder="현장, 사진 번호, 작업 원문 검색">
+        <select id="verdict" aria-label="일치 여부 필터">
+          <option value="all">전체 결과</option><option value="true">일치</option>
+          <option value="false">불일치</option><option value="null">미평가</option>
+        </select>
+      </div>
+      <div class="list" id="cases"></div>
+    </aside>
+    <article id="detail" class="panel">케이스를 선택하면 상세 결과가 표시됩니다.</article>
+  </div>
+</main>
+<script>
+'use strict';
+const get = id => document.getElementById(id);
+const methodLabels = {jaccard:'Jaccard', cosine:'Cosine', tfidf_cosine:'TF-IDF Cosine'};
+const conditionFields = [['seed','seed'], ['n','n'], ['method','method'], ['top','top_k']];
+let run, currentRows = [], selectedIdentity, loadVersion = 0, runVersion = 0;
+
+// 원문과 JSON을 텍스트로 삽입해 실험 기록 속 태그가 페이지 코드로 해석되지 않게 합니다.
+function element(tag, text, className) {
+  const node = document.createElement(tag);
+  if (text !== undefined) node.textContent = text;
+  if (className) node.className = className;
+  return node;
+}
+
+function status(message, isError = false) {
+  get('status').textContent = message;
+  get('status').classList.toggle('error', isError);
+}
+
+function parseLines(text) {
+  return text.split(/\r?\n/).filter(line => line.trim()).map(line => JSON.parse(line));
+}
+
+// 준비 스크립트가 보존한 원본 프롬프트를 사용합니다. 검색용 원문은 마지막 입력 구간에서 읽습니다.
+function promptOf(row) {
+  return (row?.request?.contents ?? []).flatMap(content => content.parts ?? [])
+    .map(part => part.text ?? '').join('\n');
+}
+
+function workOf(prompt) {
+  const marker = '\n입력 작업 원문\n';
+  const start = prompt.lastIndexOf(marker);
+  if (start < 0) return '';
+  try { return JSON.parse(prompt.slice(start + marker.length)); }
+  catch { return prompt.slice(start + marker.length); }
+}
+
+function identity(row) {
+  return JSON.stringify([row.site, row.image_id]);
+}
+
+function verdictLabel(value) {
+  return value === true ? '일치' : value === false ? '불일치' : '미평가';
+}
+
+function verdictClass(value) {
+  return value === true ? 'tag ok' : value === false ? 'tag bad' : 'tag';
+}
+
+function populateConditions() {
+  for (const [id, field] of conditionFields) {
+    const control = get(id);
+    const prior = control.value;
+    const values = new Set(run.manifest.batches.map(batch => batch[field]));
+    control.replaceChildren(...Array.from(values, value =>
+      new Option(methodLabels[value] ?? String(value), value)));
+    if (Array.from(values).some(value => String(value) === prior)) control.value = prior;
+  }
+}
+
+async function openRun(read) {
+  const version = ++runVersion;
+  ++loadVersion;
+  status('실행 목록과 평가 기록을 읽는 중입니다.');
+  try {
+    const [manifest, state, cases] = await Promise.all([
+      read('manifest.json').then(JSON.parse),
+      read('state.json').then(JSON.parse),
+      read('evaluation.cases.jsonl').then(parseLines)
+    ]);
+    if (version !== runVersion) return;
+    // 케이스는 평가 파일의 순서를 유지하고, 요청과 응답은 요청 키로 연결합니다.
+    const caseIndex = new Map(cases.map(row => [row.key, row]));
+    run = {read, manifest, state, caseIndex};
+    selectedIdentity = undefined;
+    populateConditions();
+    await loadCondition();
+  } catch (error) {
+    if (version === runVersion) status(error.message, true);
+  }
+}
+
+async function loadCondition() {
+  if (!run) return;
+  const version = ++loadVersion;
+  const active = run;
+  const batch = active.manifest.batches.find(candidate =>
+    conditionFields.every(([id, field]) => String(candidate[field]) === get(id).value));
+  currentRows = [];
+  renderCases();
+  if (!batch) { status('이 조건의 배치가 없습니다.'); return; }
+  status('선택한 조건의 요청과 응답을 읽는 중입니다.');
+  try {
+    const attempts = (active.state.batches[batch.id] ?? []).filter(attempt => attempt.result);
+    const [requests, ...responses] = await Promise.all([
+      active.read(batch.requests).then(parseLines),
+      ...attempts.map(attempt => active.read(attempt.result).then(parseLines))
+    ]);
+    if (version !== loadVersion) return;
+    const responseIndex = new Map();
+    for (const attempt of responses) {
+      for (const row of attempt) {
+        if (row.response || !responseIndex.get(row.key)?.response) responseIndex.set(row.key, row);
+      }
+    }
+    currentRows = requests.map(request => {
+      const evaluated = active.caseIndex.get(request.key);
+      if (!evaluated) return null;
+      const prompt = promptOf(request);
+      return {...evaluated, prompt, work:workOf(prompt), raw:responseIndex.get(request.key)};
+    }).filter(Boolean);
+    const evaluated = currentRows.filter(row => row.correct !== null).length;
+    const correct = currentRows.filter(row => row.correct === true).length;
+    const rate = evaluated ? ` · 완전 일치율 ${(100 * correct / evaluated).toFixed(2)}% (${correct}/${evaluated})` : '';
+    status(`${active.manifest.run_id} · ${currentRows.length}/${batch.count}건${rate}`);
+    renderCases();
+  } catch (error) {
+    if (version === loadVersion) status(error.message, true);
+  }
+}
+
+function renderCases() {
+  const query = get('search').value.trim().toLowerCase();
+  const verdict = get('verdict').value;
+  const visible = currentRows.filter(row =>
+    (verdict === 'all' || String(row.correct) === verdict)
+    && `${row.site} ${row.image_id} ${row.work}`.toLowerCase().includes(query));
+  get('count').textContent = `${visible.length}/${currentRows.length}`;
+  const selected = visible.find(row => identity(row) === selectedIdentity) ?? visible[0];
+  const entries = visible.map(row => {
+    const button = element('button', undefined, 'case');
+    button.type = 'button';
+    button.setAttribute('aria-current', String(row === selected));
+    button.append(element('strong', `${row.site} #${row.image_id}`),
+      element('span', verdictLabel(row.correct), verdictClass(row.correct)),
+      element('small', row.work || '작업 원문 표시 없음'));
+    button.onclick = () => {
+      selectedIdentity = identity(row);
+      get('cases').querySelector('[aria-current=true]')?.setAttribute('aria-current', 'false');
+      button.setAttribute('aria-current', 'true');
+      renderDetail(row);
+    };
+    return button;
+  });
+  get('cases').replaceChildren(...entries);
+  if (selected) selectedIdentity = identity(selected);
+  renderDetail(selected);
+}
+
+// 배열 순서와 무관하게 같은 공종, 규격, 수량을 짝짓고 중복 항목은 하나씩 소비합니다.
+function unmatched(items, other) {
+  const counts = new Map();
+  const key = item => JSON.stringify([item.workType, item.spec, item.quantity]);
+  for (const item of other) counts.set(key(item), (counts.get(key(item)) ?? 0) + 1);
+  return items.map(item => {
+    const value = counts.get(key(item)) ?? 0;
+    if (value) counts.set(key(item), value - 1);
+    return value === 0;
+  });
+}
+
+function itemPanel(title, items, other, difference, emptyLabel) {
+  const panel = element('section');
+  const list = element('div', undefined, 'items');
+  panel.append(element('h3', title), list);
+  if (!items?.length) list.append(element('span', emptyLabel, 'muted'));
+  const differences = Array.isArray(other) ? unmatched(items ?? [], other) : [];
+  for (const [index, item] of (items ?? []).entries()) {
+    const line = element('div', undefined, differences[index] ? 'item bad' : 'item');
+    line.append(element('strong', item.workType),
+      element('small', ` · 규격 ${item.spec || '없음'} · 수량 ${item.quantity}`));
+    if (differences[index]) line.append(element('span', difference, 'tag bad'));
+    list.append(line);
+  }
+  return panel;
+}
+
+function disclosure(title, text, open = false) {
+  const details = element('details');
+  details.open = open;
+  details.append(element('summary', title), element('pre', text));
+  return details;
+}
+
+function examplePanel(prompt) {
+  const start = '\n검색 예시 목록. 각 예시의 x는 작업 원문, y는 정답 JSON입니다.\n';
+  const end = '\n\n입력 작업 원문\n';
+  const from = prompt.indexOf(start);
+  const to = prompt.lastIndexOf(end);
+  let examples;
+  // 요청에 실제로 포함된 예시 배열을 읽어 검색 순위와 정답 항목을 그대로 보여줍니다.
+  if (from >= 0 && to > from) {
+    try { examples = JSON.parse(prompt.slice(from + start.length, to)); }
+    catch { examples = undefined; }
+  }
+  const details = element('details');
+  details.open = true;
+  if (!Array.isArray(examples)) {
+    details.append(element('summary', '첨부 예시'), element('p', '프롬프트에서 예시를 읽을 수 없습니다.', 'muted'));
+    return details;
+  }
+  const list = element('ol', undefined, 'examples');
+  list.setAttribute('aria-label', '프롬프트에 첨부된 예시 순서');
+  for (const example of examples) {
+    const entry = element('li');
+    const answer = element('div', undefined, 'items');
+    for (const item of example.y) {
+      const line = element('div', undefined, 'item');
+      line.append(element('strong', item.workType),
+        element('small', ` · 규격 ${item.spec || '없음'} · 수량 ${item.quantity}`));
+      answer.append(line);
+    }
+    if (!example.y.length) answer.append(element('span', '정답 항목 없음', 'muted'));
+    entry.append(element('p', example.x, 'example-work'), answer);
+    list.append(entry);
+  }
+  details.append(element('summary', `첨부 예시 ${examples.length}건`), list);
+  return details;
+}
+
+function renderDetail(row) {
+  const detail = get('detail');
+  detail.replaceChildren();
+  if (!row) { detail.textContent = '표시할 케이스가 없습니다.'; return; }
+  const head = element('div', undefined, 'casehead');
+  const badges = element('div');
+  badges.append(element('span', verdictLabel(row.correct), verdictClass(row.correct)));
+  const tokens = row.usage?.totalTokenCount;
+  if (Number.isInteger(tokens)) badges.append(element('span', ` · ${tokens.toLocaleString('ko-KR')} 토큰`, 'muted'));
+  head.append(element('h2', `${row.site} #${row.image_id}`), badges);
+  const comparison = element('div', undefined, 'comparison');
+  comparison.append(itemPanel('모델 예측', row.prediction, row.expected, '정답과 짝 없음',
+    row.prediction ? '추출 항목 없음' : '채점 가능한 예측 없음'),
+    itemPanel('실제 정답', row.expected, row.prediction, '예측에서 누락', '정답 항목 없음'));
+  detail.append(head, element('p', row.work, 'work'), comparison);
+  if (row.error) detail.append(element('p', typeof row.error === 'string' ? row.error : JSON.stringify(row.error), 'status error'));
+  const responseText = (row.raw?.response?.candidates?.[0]?.content?.parts ?? [])
+    .filter(part => !part.thought && typeof part.text === 'string').map(part => part.text).join('');
+  detail.append(disclosure('모델 응답 텍스트', responseText || '응답 텍스트 없음', true),
+    examplePanel(row.prompt),
+    disclosure('전송한 프롬프트', row.prompt || '프롬프트 없음'),
+    disclosure('실제 정답 JSON', JSON.stringify(row.expected, null, 2)),
+    disclosure('원본 응답 JSON', row.raw ? JSON.stringify(row.raw, null, 2) : '저장된 응답 없음'));
+}
+
+for (const [id] of conditionFields) get(id).addEventListener('change', loadCondition);
+get('search').addEventListener('input', renderCases);
+get('verdict').addEventListener('change', renderCases);
+get('folder').addEventListener('change', event => {
+  const files = new Map(Array.from(event.target.files, file => [file.name, file]));
+  if (!files.size) return;
+  openRun(async name => {
+    const file = files.get(name);
+    if (!file) throw new Error(`실행 폴더에서 ${name} 파일을 찾을 수 없습니다.`);
+    return file.text();
+  });
+});
+if (location.protocol === 'file:') {
+  status('실행 폴더 열기에서 results/seed42-01 폴더를 선택하세요.');
+} else {
+  openRun(async name => {
+    const response = await fetch(`./results/seed42-01/${encodeURIComponent(name)}`);
+    if (!response.ok) throw new Error(`${name} 파일을 읽을 수 없습니다. 실행 폴더를 직접 선택할 수 있습니다.`);
+    return response.text();
+  });
+}
+</script>
+</body>
+</html>

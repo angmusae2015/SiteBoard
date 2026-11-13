@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f6f8">
+  <title>SiteBoard · 패턴 클러스터</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23162c35'/%3E%3Cpath d='M10 10h9v9h-9zm11 0h9v15h-9zM10 21h9v9h-9zm11 6h9v3h-9z' fill='%239dd6c4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="SiteBoard 홈"><span class="brand-icon"><i></i><i></i><i></i><i></i></span>SiteBoard<span class="brand-separator">/</span><span class="brand-page">패턴 클러스터</span></a>
+    <div class="top-meta"><span class="live-dot"></span>LOCAL<span class="experiment">EXPERIMENT <b>09</b></span></div>
+  </header>
+  <main>
+    <nav class="viewer-nav" aria-label="탐색 도구">
+      <a href="/" aria-current="page">패턴 클러스터</a>
+      <a href="/ngram">N-gram 검색</a>
+    </nav>
+    <section class="page-heading"><div><div class="eyebrow">PATTERN EXPLORER</div><h1>패턴 클러스터</h1></div><div class="dataset-meta"><span>전체 레코드 <b id="total-records">—</b></span><span>정규화 패턴 <b id="total-patterns">—</b></span></div></section>
+    <section class="control-panel panel" aria-label="유사도 조절">
+      <div class="control-label"><span class="small-label">유사도 임계값</span><span class="control-baseline">기준 0.850</span></div>
+      <div class="slider-block"><div class="range-wrap"><input id="threshold" type="range" min="0" max="1" step="0.001" value="0.85" aria-label="유사도 임계값"><span class="baseline-tick" title="기준 0.850"></span></div><div class="range-labels"><span>0.000</span><span>0.500</span><span>1.000</span></div></div>
+      <input id="threshold-number" class="threshold-number" type="number" min="0" max="1" step="0.001" value="0.850" aria-label="유사도 직접 입력">
+      <button id="reset" class="reset-button" type="button" aria-label="임계값 초기화">↺ <span>초기화</span></button>
+      <span id="compute-status" class="compute-status" role="status" aria-live="polite">불러오는 중</span>
+    </section>
+    <div id="error" class="error" role="alert" hidden></div>
+    <section class="stats" aria-label="전체 통계">
+      <article class="stat panel"><span class="small-label">클러스터</span><div><strong id="stat-clusters">—</strong><span class="stat-unit">개</span><span id="delta-clusters" class="delta"></span></div></article>
+      <article class="stat panel"><span class="small-label">1건 클러스터</span><div><strong id="stat-singletons">—</strong><span class="stat-unit">개</span><span id="delta-singletons" class="delta"></span></div></article>
+      <article class="stat panel"><span class="small-label">최대 클러스터</span><div><strong id="stat-largest">—</strong><span class="stat-unit">건</span><span id="delta-largest" class="delta"></span></div></article>
+      <article class="stat panel"><span class="small-label">상위 10개 점유율</span><div><strong id="stat-top10">—</strong><span class="stat-unit">%</span><span id="delta-top10" class="delta"></span></div></article>
+    </section>
+    <section class="distribution" aria-label="전체 클러스터 분포">
+      <article class="panel treemap-panel"><div class="panel-heading"><h2>클러스터 분포</h2><span id="treemap-meta" class="muted">—</span></div><div id="treemap" class="treemap" aria-label="클러스터 크기 트리맵"></div><div class="chart-footer"><span><i class="legend-square"></i>전체 <b id="treemap-count">—</b>개</span><span><i class="legend-square active"></i>선택한 클러스터</span></div></article>
+      <div class="side-charts"><article class="panel histogram-panel"><div class="panel-heading"><h2>크기별 클러스터 수</h2><button id="clear-bucket" class="text-button" type="button" hidden>선택 해제</button></div><div id="histogram" class="histogram"></div></article><article class="panel cumulative-panel"><div class="panel-heading"><h2>누적 점유율</h2><div class="chart-legend"><span><i></i>현재</span><span><i class="baseline"></i>0.85</span></div></div><svg id="cumulative" role="img" aria-label="크기순 클러스터 수에 따른 누적 레코드 점유율" viewBox="0 0 440 148"></svg><div id="curve-readout" class="curve-readout">—</div></article></div>
+    </section>
+    <section class="workspace">
+      <article class="panel cluster-panel"><div class="panel-heading"><h2>클러스터 목록 <span id="list-count" class="count-pill">—</span></h2><button id="clear-filters" class="text-button" type="button">필터 초기화</button></div>
+        <div class="filters"><label class="search-wrap"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="search" type="search" placeholder="패턴, 원문, 사진 ID 검색" aria-label="검색"></label><div class="filter-row"><select id="site-filter" aria-label="현장"><option value="">전체 현장</option></select><select id="work-filter" aria-label="공종"><option value="">전체 공종</option></select><select id="sort" aria-label="정렬"><option value="size">크기순</option><option value="similarity">유사도 낮은 순</option><option value="change">소속 변화순</option></select></div></div>
+        <div class="list-columns"><span>대표 패턴</span><span>건수 / 패턴</span></div><div id="cluster-list" class="cluster-list" aria-label="클러스터 목록"></div>
+      </article>
+      <article class="panel detail-panel"><div id="detail-header" class="detail-header"></div><div class="tabs" role="tablist" aria-label="클러스터 상세"><button id="tab-patterns" type="button" role="tab" aria-selected="true" aria-controls="detail-body" data-tab="patterns">소속 패턴</button><button id="tab-records" type="button" role="tab" aria-selected="false" aria-controls="detail-body" data-tab="records">원문과 정답</button><button id="tab-compare" type="button" role="tab" aria-selected="false" aria-controls="detail-body" data-tab="compare">0.85와 비교</button><button id="tab-split" type="button" role="tab" aria-selected="false" aria-controls="detail-body" data-tab="split">학습 / 평가</button></div><div id="detail-body" class="detail-body" role="tabpanel" aria-labelledby="tab-patterns"></div></article>
+    </section>
+    <footer class="page-footer"><span>SITEBOARD</span><span>09 / PATTERN CLUSTERING</span><span id="applied-threshold">θ 0.850</span></footer>
+  </main>
+  <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+</body>
+</html>
