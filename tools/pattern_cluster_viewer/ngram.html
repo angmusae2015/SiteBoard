@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SiteBoard · N-gram 검색</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/ngram.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span>SiteBoard</a>
+  </header>
+  <main>
+    <nav class="viewer-nav" aria-label="탐색 도구">
+      <a href="/">패턴 클러스터</a>
+      <a href="/ngram" aria-current="page">N-gram 검색</a>
+    </nav>
+    <div class="page-heading"><h1>N-gram 유사도 검색</h1></div>
+    <form id="ngram-form" class="panel ngram-form">
+      <label class="ngram-query">검색 문자열
+        <input id="ngram-query" type="search" aria-describedby="ngram-error" required>
+      </label>
+      <label>N
+        <select id="ngram-size">
+          <option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option>
+        </select>
+      </label>
+      <button type="submit">검색</button>
+      <p id="ngram-error" role="alert" hidden></p>
+    </form>
+    <p id="ngram-status" class="ngram-status" role="status"></p>
+    <div class="ngram-grid" id="ngram-results">
+      <section class="panel ngram-column" data-method="jaccard">
+        <h2>Jaccard <span class="count-pill" hidden></span></h2>
+        <ol></ol><button type="button" class="ngram-more" hidden>더 보기</button>
+      </section>
+      <section class="panel ngram-column" data-method="cosine">
+        <h2>Cosine Similarity <span class="count-pill" hidden></span></h2>
+        <ol></ol><button type="button" class="ngram-more" hidden>더 보기</button>
+      </section>
+      <section class="panel ngram-column" data-method="tfidf">
+        <h2>TF-IDF <span class="count-pill" hidden></span></h2>
+        <ol></ol><button type="button" class="ngram-more" hidden>더 보기</button>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
