@@ -20,6 +20,7 @@
 | [08: 비추론 비증강 QLoRA](08/README.md) | Qwen3-8B | 87.93% (488/555) | 시드 42 학습 및 평가 완료, 합산 및 분리 허용 89.01% (494/555), [결과 분석](08/results/README.md) |
 | [09: 여러 시드의 증강 효과 비교](09/README.md) | Qwen3-8B | 시드 평균 on 90.63%, off 89.85% | 43, 44, 45의 6조건 완료, 합산 및 분리 허용 평균 on 91.59%, off 90.39%, [결과 분석](09/results/README.md) |
 | [10: Qwen3.5-4B 문장 결합 증강 비교](10/README.md) | Qwen3.5-4B | 시드 평균 on 90.27%, off 88.65% | 43~46의 8조건 학습 및 평가 완료, [결과 분석](10/results/README.md) |
+| [11: 문자 N-gram 검색 예시 비교](11/README.md) | Gemini 3.5 Flash-Lite, GPT-6.1 Terra | 시드 42 최고 조건 Gemini 90.42% (387/428), GPT 94.63% (405/428) | 모델별 48개 조건 완료, [결과 비교](11/results/README.md) |
 
 ## 읽는 순서
 
